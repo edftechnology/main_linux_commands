@@ -46,37 +46,37 @@ Para procurar uma palavra-chave ou texto em arquivos no seu sistema `Linux` (`Ub
 1. **Procurar em um arquivo específico**: Isso vai procurar a palavra no arquivo especificado:
 
     ```
-    grep "palavra-chave" nome_do_arquivo
+    sudo grep "palavra-chave" nome_do_arquivo
     ```
 
 2. **Procurar em múltiplos arquivos**: Isso permite procurar a palavra em mais de um arquivo ao mesmo tempo:
 
     ```
-    grep "palavra-chave" arquivo1 arquivo2 arquivo3
+    sudo grep "palavra-chave" arquivo1 arquivo2 arquivo3
     ```
 
 3. **Procurar recursivamente em um diretório**: Se você deseja procurar por uma palavra em todos os arquivos dentro de um diretório e seus subdiretórios:
 
     ```
-    grep -r "palavra-chave" /caminho/do/diretório
+    sudo grep -r "palavra-chave" /caminho/do/diretório
     ```
 
 4. **Procurar apenas arquivos que correspondem ao texto**: Caso queira que a busca seja recursiva e ver apenas o nome dos arquivos que contêm a palavra procurada, use a opção `-l`:
 
     ```
-    grep -rl "palavra-chave" /caminho/do/diretório
+    sudo grep -rl "palavra-chave" /caminho/do/diretório
     ```
 
 5. **Ignorar a diferenciação entre maiúsculas e minúsculas**: Se você deseja que a busca seja recursível e insensível a maiúsculas/minúsculas, adicione a opção `-i`:
 
     ```
-    grep -ri "palavra-chave" /caminho/do/diretório
+    sudo grep -ri "palavra-chave" /caminho/do/diretório
     ```
 
 6. **Mostrar número das linhas**: Para exibir o número da linha onde a palavra foi encontrada:
 
     ```
-    grep -n "palavra-chave" nome_do_arquivo
+    sudo grep -n "palavra-chave" nome_do_arquivo
     ```
 
 Essas são formas comuns de usar o `grep` para buscar palavras no seu sistema.
