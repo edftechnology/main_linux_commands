@@ -67,7 +67,7 @@ Para procurar uma palavra-chave ou texto em arquivos no seu sistema `Linux` (`Ub
     grep -rl "palavra-chave" /caminho/do/diretório
     ```
 
-5. **Ignorar a diferenciação entre maiúsculas e minúsculas**: Se você deseja que a busca seja insensível a maiúsculas/minúsculas, adicione a opção `-i`:
+5. **Ignorar a diferenciação entre maiúsculas e minúsculas**: Se você deseja que a busca seja recursível e insensível a maiúsculas/minúsculas, adicione a opção `-i`:
 
     ```
     grep -ri "palavra-chave" /caminho/do/diretório
