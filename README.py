@@ -64,7 +64,7 @@
 #     grep -r "palavra-chave" /caminho/do/diretório
 #     ```
 # 
-# 4. **Procurar apenas arquivos que correspondem ao texto**: Caso queira ver apenas o nome dos arquivos que contêm a palavra procurada, use a opção `-l`:
+# 4. **Procurar apenas arquivos que correspondem ao texto**: Caso queira que a busca seja recursiva e ver apenas o nome dos arquivos que contêm a palavra procurada, use a opção `-l`:
 # 
 #     ```
 #     grep -rl "palavra-chave" /caminho/do/diretório
