@@ -97,6 +97,67 @@
 #     ```
 # 
 
+# ## 17. Linux Cheat Sheet Aliases
+#
+# ```bash
+# # =========================
+# #  Linux Cheat Sheet Aliases
+# # =========================
+#
+# # ---- Atualização e Limpeza do Sistema ----
+# alias update='sudo apt update && sudo apt list --upgradable && sudo apt full-upgrade -y'
+# alias cleanapt='sudo apt clean && sudo apt autoclean && sudo apt autoremove -y'
+#
+# # ---- Navegação Rápida ----
+# alias home='cd ~'
+# alias docs='cd ~/Documents'
+# alias desk='cd ~/Desktop'
+#
+# # ---- Listagem de Arquivos e Pastas ----
+# alias ll='ls -alF --color=auto'
+# alias la='ls -A --color=auto'
+# alias l='ls -CF --color=auto'
+#
+# # ---- Busca e Inspeção ----
+# alias grep='grep --color=auto'
+# alias finddir='find . -type d -name'
+# alias findfile='find . -type f -name'
+#
+# # ---- Monitoramento de Sistema ----
+# alias meminfo='free -h'
+# alias cpuinfo='lscpu'
+# alias diskuse='df -h'
+# alias proc='ps aux --sort=-%mem | head'
+# alias topcpu='ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head'
+#
+# # ---- Rede ----
+# alias myip='hostname -I'
+# alias pingg='ping google.com'
+# alias netlisten='netstat -pntlu'
+#
+# # ---- Transferência de Arquivos ----
+# alias scpup='scp'
+# alias rsyncup='rsync -avz'
+#
+# # ---- Informações de Hardware ----
+# alias usbinfo='lsusb'
+# alias pciinfo='lspci'
+# alias diskinfo='lsblk'
+# alias cpumodel='cat /proc/cpuinfo | grep "model name" | uniq'
+#
+# # ---- Processos ----
+# alias killpid='kill -9'
+# alias psgrep='ps aux | grep -i'
+#
+# # ---- Uso de Disco ----
+# alias diskfree='df -h'
+# alias diskdu='du -sh * 2>/dev/null'
+#
+# # ---- Segurança ----
+# alias sshcon='ssh'
+# alias sftpcon='sftp'
+# ```
+#
 # ## Referências
 # 
 # [1] OPENAI. ***Buscar palavra-chave em arquivo.*** Disponível em: <https://chatgpt.com/c/66e99b91-aa6c-8002-9401-ccd319b980e3> (texto adaptado). Acessado em: 17/09/2024 15:35.
