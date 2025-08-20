@@ -97,68 +97,6 @@
 #     ```
 # 
 
-# ## 17. Linux Cheat Sheet Aliases
-# 
-# ```bash
-# # =========================
-# #  Linux Cheat Sheet Aliases
-# # =========================
-# 
-# # ---- Atualização e Limpeza do Sistema ----
-# alias update='sudo apt update && sudo apt list --upgradable && sudo apt full-upgrade -y'
-# alias cleanapt='sudo apt clean && sudo apt autoclean && sudo apt autoremove -y'
-# 
-# # ---- Navegação Rápida ----
-# alias home='cd ~'
-# alias docs='cd ~/Documents'
-# alias desk='cd ~/Desktop'
-# 
-# # ---- Listagem de Arquivos e Pastas ----
-# alias ll='ls -alF --color=auto'
-# alias la='ls -A --color=auto'
-# alias l='ls -CF --color=auto'
-# 
-# # ---- Busca e Inspeção ----
-# alias grep='grep --color=auto'
-# alias finddir='find . -type d -name'
-# alias findfile='find . -type f -name'
-# 
-# # ---- Monitoramento de Sistema ----
-# alias meminfo='free -h'
-# alias cpuinfo='lscpu'
-# alias diskuse='df -h'
-# alias proc='ps aux --sort=-%mem | head'
-# alias topcpu='ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head'
-# 
-# # ---- Rede ----
-# alias myip='hostname -I'
-# alias pingg='ping google.com'
-# alias netlisten='netstat -pntlu'
-# 
-# # ---- Transferência de Arquivos ----
-# alias scpup='scp'
-# alias rsyncup='rsync -avz'
-# 
-# # ---- Informações de Hardware ----
-# alias usbinfo='lsusb'
-# alias pciinfo='lspci'
-# alias diskinfo='lsblk'
-# alias cpumodel='cat /proc/cpuinfo | grep "model name" | uniq'
-# 
-# # ---- Processos ----
-# alias killpid='kill -9'
-# alias psgrep='ps aux | grep -i'
-# 
-# # ---- Uso de Disco ----
-# alias diskfree='df -h'
-# alias diskdu='du -sh * 2>/dev/null'
-# 
-# # ---- Segurança ----
-# alias sshcon='ssh'
-# alias sftpcon='sftp'
-# ```
-# 
-
 # ## 2. Rede
 # 
 # | Comando        | Descrição em Inglês                 | Descrição em Português                      |
@@ -374,6 +312,94 @@
 # | `Ctrl + Alt + F7`| Switch to the first graphical terminal       |
 # | `Ctrl + Alt + F10`| Switch to a virtual console                 |
 # 
+
+# ## 17. Linux Cheat Sheet Aliases
+# 
+# 1. **Abrir o `Terminal Emulator`**: `Ctrl + Alt + T`
+# 
+# 2. **Abrir o arquivo `source` do `Terminal Emulator`**:
+# 
+# ```bash
+# sudo nano ~/.zshrc
+# ```
+# 
+# Substitua `zshrc` por `bashrc` caso você use o `bash`.
+# 
+
+# 3. **Copiar e colar o código abaixo**:
+# 
+# ```bash
+# # =========================
+# #  Linux Cheat Sheet Aliases
+# # =========================
+# 
+# # ---- PRINCIPAIS ALIASES ----
+# alias ls='ls -alF'
+# alias mkdir='mkdir -pv'
+# alias tree='tree -alF'
+# 
+# # ---- Atualização e Limpeza do Sistema ----
+# alias update='sudo apt update && sudo apt list --upgradable && sudo apt full-upgrade -y'
+# alias cleanapt='sudo apt clean && sudo apt autoclean && sudo apt autoremove -y'
+# 
+# # ---- Navegação Rápida ----
+# alias home='cd ~'
+# alias docs='cd ~/Documents'
+# alias desk='cd ~/Desktop'
+# 
+# # ---- Listagem de Arquivos e Pastas ----
+# alias ll='ls -alF --color=auto'
+# alias la='ls -A --color=auto'
+# alias l='ls -CF --color=auto'
+# 
+# # ---- Busca e Inspeção ----
+# alias grep='grep --color=auto'
+# alias finddir='find . -type d -name'
+# alias findfile='find . -type f -name'
+# 
+# # ---- Monitoramento de Sistema ----
+# alias meminfo='free -h'
+# alias cpuinfo='lscpu'
+# alias diskuse='df -h'
+# alias proc='ps aux --sort=-%mem | head'
+# alias topcpu='ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head'
+# 
+# # ---- Rede ----
+# alias myip='hostname -I'
+# alias pingg='ping google.com'
+# alias netlisten='netstat -pntlu'
+# 
+# # ---- Transferência de Arquivos ----
+# alias scpup='scp'
+# alias rsyncup='rsync -avz'
+# 
+# # ---- Informações de Hardware ----
+# alias usbinfo='lsusb'
+# alias pciinfo='lspci'
+# alias diskinfo='lsblk'
+# alias cpumodel='cat /proc/cpuinfo | grep "model name" | uniq'
+# 
+# # ---- Processos ----
+# alias killpid='kill -9'
+# alias psgrep='ps aux | grep -i'
+# 
+# # ---- Uso de Disco ----
+# alias diskfree='df -h'
+# alias diskdu='du -sh * 2>/dev/null'
+# 
+# # ---- Segurança ----
+# alias sshcon='ssh'
+# alias sftpcon='sftp'
+# ```
+# 
+
+# 4. Atualizar o `source` do `Terminal`:
+# 
+# ```bash
+# source ~/.zshrc
+# ```
+# 
+# Substitua `zshrc` por `bashrc` caso você use o `bash`.
 
 # ## Referências
 # 
