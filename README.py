@@ -333,11 +333,6 @@
 # #  Linux Cheat Sheet Aliases
 # # =========================
 # 
-# # ---- PRINCIPAIS ALIASES ----
-# alias ls='ls -alF'
-# alias mkdir='mkdir -pv'
-# alias tree='tree -alF'
-# 
 # # ---- Atualização e Limpeza do Sistema ----
 # alias update='sudo apt update && sudo apt list --upgradable && sudo apt full-upgrade -y'
 # alias cleanapt='sudo apt clean && sudo apt autoclean && sudo apt autoremove -y'
@@ -390,8 +385,15 @@
 # # ---- Segurança ----
 # alias sshcon='ssh'
 # alias sftpcon='sftp'
-# ```
 # 
+# # ---- PRINCIPAIS ALIASES ----
+# alias ls='ls -alF'
+# alias mkdir='mkdir -pv'
+# alias tree='tree -alF'
+# alias shutdown='sudo systemctl shutdown'
+# alias suspend='sudo systemctl suspend'
+# alias ubuntu='cd /home/edenedfsls/Documents/Downloads/unix/ubuntu/'
+# ```
 
 # 4. Atualizar o `source` do `Terminal`:
 # 

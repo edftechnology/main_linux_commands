@@ -27,7 +27,6 @@
 *.tar.gz
 *.tar.lzma
 *.tg.xz
-*.sh
 *.war
 *.wmv
 *.webm
@@ -45,7 +44,6 @@
 !inputs_templates/LPRE/components/thrust_chamber_assembly/TCA_input_RD109.py
 
 # Also ignore folders inputs/ and outputs/
-.*/
 .inputs/
 .outputs/
 inputs/
@@ -54,6 +52,9 @@ outputs/
 passwords
 .tokens/
 tokens
+# Permitir workflows do GitHub
+!.github/
+!.github/workflows/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
