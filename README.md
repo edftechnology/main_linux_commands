@@ -323,7 +323,7 @@ sudo nano ~/.zshrc
 Substitua `zshrc` por `bashrc` caso você use o `bash`.
 
 
-3. **Copiar e colar o código abaixo**:
+3. **Copiar e colar o código abaixo no final do arquivo `~/.zshrc`**:
 
 ```bash
 # =========================
@@ -389,16 +389,45 @@ alias mkdir='mkdir -pv'
 alias tree='tree -alF'
 alias shutdown='sudo systemctl shutdown'
 alias suspend='sudo systemctl suspend'
-alias ubuntu='cd /home/edenedfsls/Documents/Downloads/unix/ubuntu/'
 ```
 
 4. Atualizar o `source` do `Terminal`:
 
+    ```bash
+    source ~/.zshrc
+    ```
+
+    Substitua `zshrc` por `bashrc` caso você use o `bash`.
+
+## 18. Atalhos para Pastas
+
+1. **Abrir o `Terminal Emulator`**: `Ctrl + Alt + T`
+
+2. **Abrir o arquivo `source` do `Terminal Emulator`**:
+
 ```bash
-source ~/.zshrc
+sudo nano ~/.zshrc
 ```
 
 Substitua `zshrc` por `bashrc` caso você use o `bash`.
+
+
+3. **Copiar e colar o código abaixo no final do arquivo `~/.zshrc`**:
+
+```bash
+# ---
+# ATALHOS PARA PASTAS:
+export CDPATH=$CDPATH:/home/edenedfsls/Documents/Downloads/unix
+# ---
+```
+
+4. Atualizar o `source` do `Terminal`:
+
+    ```bash
+    source ~/.zshrc
+    ```
+
+    Substitua `zshrc` por `bashrc` caso você use o `bash`.
 
 ## Referências
 
