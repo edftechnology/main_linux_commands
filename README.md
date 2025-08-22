@@ -417,7 +417,7 @@ Substitua `zshrc` por `bashrc` caso você use o `bash`.
 ```bash
 # ---
 # ATALHOS PARA PASTAS:
-export CDPATH=$CDPATH:/home/edenedfsls/Documents/Downloads/unix
+export CDPATH=$CDPATH:/home/edenedfsls/Documents/Downloads/unix/ubuntu
 # ---
 ```
 
