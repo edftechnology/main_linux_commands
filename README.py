@@ -387,10 +387,17 @@
 # alias sftpcon='sftp'
 # 
 # # ---- PRINCIPAIS ALIASES ----
+# alias cdaudithas='cd /home/edenedfsls/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/SEMESTRES/latex_thesis_template/subs/submodules/audithas/'  # Específico
 # alias ls='ls -alF'
 # alias mkdir='mkdir -pv'
+# 
+# # alias python='python3.10'  # Ative apenas se possuir e quiser o `Python 3.10` como sendo o padrão para o `Terminal Emulator`
+# # alias python3='python3.10'  # Ative apenas se possuir e quiser o `Python 3.10` como sendo o padrão para o `Terminal Emulator`
+# 
+# alias preparerepo='./subs/submodules/shell_scripts/prepare_repo.sh'
 # alias tree='tree -alF'
-# alias shutdown='sudo systemctl shutdown'
+# alias reboot='sudo reboot'
+# alias shutdown='sudo systemctl shutdown now'
 # alias suspend='sudo systemctl suspend'
 # ```
 
