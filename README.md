@@ -20,7 +20,11 @@ Uma palavra-chave é um termo ou expressão que representa um conceito central e
 
 Para configurar/instalar/usar o `Buscar palavra-chave em arquivo` no `Linux Ubuntu`, você pode seguir estes passos:
 
-1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando: `Ctrl + Alt + T`
+1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
 
 2. Certifique-se de que seu sistema esteja limpo e atualizado.
 
@@ -85,7 +89,11 @@ Essas são formas comuns de usar o `grep` para buscar palavras no seu sistema.
 
 Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
 
-1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando: `Ctrl + Alt + T`
+1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
 
 2. Digite o seguinte comando e pressione `Enter`:
 

@@ -11,20 +11,24 @@
 # 
 # _This document contains the main commands and settings for configuring/installing/using the `search for keyword in file` on `Linux Ubuntu`._
 # 
-
+# 
 # ## Descrição [2]
 # 
 # ### `palavra-chave`
 # 
 # Uma palavra-chave é um termo ou expressão que representa um conceito central em um determinado contexto, como programação, marketing ou pesquisa. No âmbito da programação, palavras-chave são identificadores reservados que têm um significado específico na linguagem, como `if`, `else`, `for` e `function`, e não podem ser usados como nomes de variáveis ou funções. Em marketing digital e SEO, palavras-chave são os termos que os usuários digitam em mecanismos de busca e são fundamentais para otimizar conteúdos e aumentar a visibilidade online. Assim, as palavras-chave desempenham um papel crucial na comunicação, programação e busca de informações.
 # 
-
+# 
 # ## 1. Como configurar/instalar/usar o `Buscar palavra-chave em arquivo` no `Linux Ubuntu` [1][3]
 # 
 # Para configurar/instalar/usar o `Buscar palavra-chave em arquivo` no `Linux Ubuntu`, você pode seguir estes passos:
 # 
-# 1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando: `Ctrl + Alt + T`
-
+# 1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando:
+# 
+#     ```bash
+#     Ctrl + Alt + T
+#     ```
+# 
 # 2. Certifique-se de que seu sistema esteja limpo e atualizado.
 # 
 #     2.1 **Limpar o `cache` do gerenciador de pacotes `apt`**: Especificamente, ele remove todos os arquivos de pacotes (`.deb`) baixados pelo `apt` e armazenados em `/var/cache/apt/archives/`. Digite o seguinte comando: `sudo apt clean` 
@@ -43,7 +47,7 @@
 # 
 #     2.8 **Realmente atualizar os pacotes instalados para as suas versões mais recentes, com base na última vez que você executou `sudo apt update`**: Digite o seguinte comando e pressione `Enter`: `sudo apt full-upgrade -y`
 #    
-
+# 
 # Para procurar uma palavra-chave ou texto em arquivos no seu sistema `Linux` (`Ubuntu` ou outras distribuições), você pode usar o comando `grep`. Aqui estão algumas maneiras de usar o grep para fazer isso:
 # 
 # 1. **Procurar em um arquivo específico**: Isso vai procurar a palavra no arquivo especificado:
@@ -83,12 +87,16 @@
 #     ```
 # 
 # Essas são formas comuns de usar o `grep` para buscar palavras no seu sistema.
-
+# 
 # ### 1.1 Código completo para configurar/instalar/usar
 # 
 # Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
 # 
-# 1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando: `Ctrl + Alt + T`
+# 1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando:
+# 
+#     ```bash
+#     Ctrl + Alt + T
+#     ```
 # 
 # 2. Digite o seguinte comando e pressione `Enter`:
 # 
@@ -96,7 +104,7 @@
 #     NÃO há.
 #     ```
 # 
-
+# 
 # ## 2. Rede
 # 
 # | Comando        | Descrição em Inglês                 | Descrição em Português                      |
@@ -118,7 +126,7 @@
 # | `wget [file_url]`| Download a file from url         | Baixar um arquivo de uma URL                |
 # | `whois [domain]`| Show domain information           | Mostrar informações do domínio              |
 # 
-
+# 
 # ## 3. Comandos de usuários e grupos
 # 
 # | Comando         | Descrição em Inglês            | Descrição em Português                 |
@@ -135,7 +143,7 @@
 # | `w`             | Show logged users and activity | Mostrar usuários logados e atividade   |
 # | `who`           | Show who is logged in          | Mostrar quem está logado               |
 # 
-
+# 
 # ## 4. Comandos de Navegação de Diretórios
 # 
 # | Comando         | Descrição em Inglês             | Descrição em Português                |
@@ -144,7 +152,7 @@
 # | `cd`            | Change directory to $HOME       | Mudar diretório para o $HOME          |
 # | `cd [location]` | Change to specified directory   | Mudar para o diretório especificado   |
 # 
-
+# 
 # ## 5. Informações de Hardware
 # 
 # | Comando          | Descrição em Inglês               | Descrição em Português                  |
@@ -161,7 +169,7 @@
 # | `hdparm -Tt /dev/[disk]`| Disk read speed test       | Teste de velocidade de leitura do disco |
 # | `badblocks -s /dev/[disk]`| Unreadable blocks test   | Teste de blocos ilegíveis               |
 # 
-
+# 
 # ## 6. Compressão de Arquivos
 # 
 # | Comando               | Descrição em Inglês                 | Descrição em Português                  |
@@ -172,7 +180,7 @@
 # | `tar cf [file.tar] [file]`| Create a tar file from a file  | Criar um arquivo tar a partir de um arquivo|
 # | `tar czf [file.tar.gz]`| Create a gzip tar file            | Criar um arquivo tar gzip               |
 # 
-
+# 
 # ## 7. Instalação de Pacotes
 # 
 # | Comando                     | Descrição em Inglês                    | Descrição em Português                             |
@@ -186,7 +194,7 @@
 # | `yum install [package]`     | Install a package with YUM              | Instalar um pacote com YUM                         |
 # | `yum search [package]`      | Find a package by a keyword             | Encontrar um pacote por uma palavra-chave          |
 # 
-
+# 
 # ## 8. Gerenciamento de Sistema
 # 
 # | Comando                | Descrição em Inglês                   | Descrição em Português                              |
@@ -206,7 +214,7 @@
 # | `uptime`               | Show uptime length/avg load           | Mostrar tempo de atividade/carga média              |
 # | `whoami`               | Show the current user                 | Mostrar o usuário atual                             |
 # 
-
+# 
 # ## 9. Permissões de Arquivo
 # 
 # | Comando          | Descrição em Inglês                             | Descrição em Português                                   |
@@ -217,7 +225,7 @@
 # | `chown [user][file]` | Change file ownership                            | Mudar a propriedade do arquivo                                     |
 # | `chown [user][group][file]` | Change file owner and group                    | Mudar o proprietário do arquivo e grupo                            |
 # 
-
+# 
 # ## 10. Login SSH
 # 
 # | Comando           | Descrição em Inglês                       | Descrição em Português                               |
@@ -227,7 +235,7 @@
 # | `telnet [host]`    | Connect to Telnet via port 23            | Conectar ao Telnet via porta 23                      |
 # | `ssh -p [port][user]@[host]`| Use a non-default port           | Usar uma porta não padrão                            |
 # 
-
+# 
 # ## 11. Variáveis Bash
 # 
 # | Comando             | Descrição em Inglês                       | Descrição em Português                                 |
@@ -238,7 +246,7 @@
 # | `let [variable]=[value]` | Assign integer value to var          | Atribuir valor inteiro à variável                      |
 # | `set`               | List variables and functions              | Listar variáveis e funções                             |
 # 
-
+# 
 # ## 12. Transferência de Arquivos
 # 
 # | Comando         | Descrição em Inglês                | Descrição em Português                                 |
@@ -246,7 +254,7 @@
 # | `scp [file.txt][server:/tmp]` | Securely transfer a file   | Transferir um arquivo de forma segura                  |
 # | `rsync -a /location/ /backup/` | Sync the contents of a location with the backup directory | Sincronizar os conteúdos de uma localização com o diretório de backup |
 # 
-
+# 
 # ## 13. Uso de Disco
 # 
 # | Comando        | Descrição em Inglês                        | Descrição em Português                                   |
@@ -258,7 +266,7 @@
 # | `findmnt`      | Show target mount point                    | Mostrar ponto de montagem alvo                           |
 # | `mount [device][mount point]` | Mount a device               | Montar um dispositivo                                    |
 # 
-
+# 
 # ## 14. Processos Relacionados
 # 
 # | Comando          | Descrição em Inglês                           | Descrição em Português                                   |
@@ -279,7 +287,7 @@
 # | `ps PID`         | Give the status of a particular process       | Dar o status de um processo específico                   |
 # | `renice`         | Change priority of a running process          | Mudar a prioridade de um processo em execução            |
 # 
-
+# 
 # ## 15. Comandos de Shell
 # 
 # | Comando          | Descrição em Inglês                          | Descrição em Português                                   |
@@ -293,7 +301,7 @@
 # | `watch -n [interval] [command]` | Set interval to run a command | Definir intervalo para executar um comando               |
 # | `sleep [interval] && [command]` | Postpone command execution   | Adiar execução de comando                                |
 # 
-
+# 
 # ## 16. Atalhos de Teclado
 # 
 # | Atalho           | Ação                                         |
@@ -312,7 +320,7 @@
 # | `Ctrl + Alt + F7`| Switch to the first graphical terminal       |
 # | `Ctrl + Alt + F10`| Switch to a virtual console                 |
 # 
-
+# 
 # ## 17. Linux Cheat Sheet Aliases
 # 
 # 1. **Abrir o `Terminal Emulator`**: `Ctrl + Alt + T`
@@ -325,7 +333,7 @@
 # 
 # Substitua `zshrc` por `bashrc` caso você use o `bash`.
 # 
-
+# 
 # 3. **Copiar e colar o código abaixo no final do arquivo `~/.zshrc`**:
 # 
 # ```bash
@@ -400,7 +408,7 @@
 # alias shutdown='sudo systemctl shutdown now'
 # alias suspend='sudo systemctl suspend'
 # ```
-
+# 
 # 4. Atualizar o `source` do `Terminal`:
 # 
 #     ```bash
@@ -408,7 +416,7 @@
 #     ```
 # 
 #     Substitua `zshrc` por `bashrc` caso você use o `bash`.
-
+# 
 # ## 18. Atalhos para Pastas
 # 
 # 1. **Abrir o `Terminal Emulator`**: `Ctrl + Alt + T`
@@ -421,7 +429,7 @@
 # 
 # Substitua `zshrc` por `bashrc` caso você use o `bash`.
 # 
-
+# 
 # 3. **Copiar e colar o código abaixo no final do arquivo `~/.zshrc`**:
 # 
 # ```bash
@@ -430,7 +438,7 @@
 # export CDPATH=$CDPATH:/home/edenedfsls/Documents/Downloads/unix/ubuntu
 # # ---
 # ```
-
+# 
 # 4. Atualizar o `source` do `Terminal`:
 # 
 #     ```bash
@@ -438,10 +446,11 @@
 #     ```
 # 
 #     Substitua `zshrc` por `bashrc` caso você use o `bash`.
-
+# 
 # ## Referências
 # 
 # [1] OPENAI. ***Buscar palavra-chave em arquivo.*** Disponível em: <https://chatgpt.com/c/66e99b91-aa6c-8002-9401-ccd319b980e3> (texto adaptado). Acessado em: 17/09/2024 15:35.
 # 
 # [2] OPENAI. ***Vs code: editor popular.*** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). Acessado em: 17/09/2024 15:35.
+# 
 # 
