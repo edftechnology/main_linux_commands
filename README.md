@@ -24,7 +24,7 @@ Uma palavra-chave é um termo ou expressão que representa um conceito central e
 
 Para configurar/instalar/usar o `Buscar palavra-chave em arquivo` no `Linux Ubuntu`, você pode seguir estes passos:
 
-1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando:
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
 
     ```bash
     Ctrl + Alt + T
@@ -120,7 +120,7 @@ Essas são formas comuns de usar o `grep` para buscar palavras no seu sistema.
 
 Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
 
-1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando:
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
 
     ```bash
     Ctrl + Alt + T
@@ -524,13 +524,21 @@ export CDPATH=$CDPATH:/home/edenedfsls/Documents/Downloads/unix
 # ---
 
 # ---- PRINCIPAIS ALIASES ----
+# ---- PRINCIPAIS ALIASES ----
 alias cea="~/cea/cea_run"
-alias cdaudithas='cd /home/edenedfsls/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/subs/submodules/audithas'  # Específico
-alias cdkmeans="cd /home/edenedfsls/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/subs/submodules/k_means_thesis/"
-alias cdlatexpresentationtemplate='cd /home/edenedfsls/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/SEMESTRES/latex_presentation_template'  # Específico
-alias cdlatexthetistemplate='cd /home/edenedfsls/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/SEMESTRES/latex_thesis_template/subs/submodules/audithas'  # Específico
-alias cdthesis="cd /home/edenedfsls/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/"
-alias cdubuntu='cd /home/edenedfsls/Documents/Downloads/unix/ubuntu/'
+alias cdaudithas='cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/subs/submodules/audithas'  # Específico
+alias cddesktop="cd $HOME/Desktop"
+alias cddocuments="cd $HOME/Documents"
+alias cddownloads="cd $HOME/Downloads"
+alias cdkmeans="cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/subs/submodules/k_means_thesis/"
+alias cdlatexpresentationtemplate='cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/SEMESTRES/latex_presentation_template'  # Específico
+alias cdlatexthetistemplate='cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/SEMESTRES/latex_thesis_template/subs/submodules/audithas'  # Específico
+alias cdmusic="cd $HOME/Music"
+alias cdpictures="cd $HOME/Pictures"
+alias cdthesis="cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/"
+alias cdtrash="trash:///"
+alias cdubuntu='cd $HOME/Documents/Downloads/unix/ubuntu/'
+alias cdvideos="cd $HOME/Videos"
 alias ls='ls -alF'
 alias gitmergeandcleanup='./subs/submodules/shell_scripts/git_merge_and_cleanup.sh'
 alias preparerepo='./subs/submodules/shell_scripts/prepare_repo.sh'
