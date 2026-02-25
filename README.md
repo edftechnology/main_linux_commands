@@ -1,28 +1,30 @@
-# Como configurar/instalar/usar o `Buscar palavra-chave` no `Linux Ubuntu`
+# Como configurar/instalar/usar o `principais comandos do Linux` no `Linux Ubuntu`
 
 ## Resumo
 
-Neste documento estão contidos os principais comandos e configurações para configurar/instalar/usar o `buscar palavra-chave em arquivo` no `Linux Ubuntu`.
+Neste documento estão contidos os principais comandos e configurações para configurar/instalar/usar o `principais comandos do Linux` no `Linux Ubuntu`.
 
 ## _Abstract_
 
-_This document contains the main commands and settings for configuring/installing/using the `search for keyword in file` on `Linux Ubuntu`._
+_This document contains the main commands and settings for configuring/installing/using the `main Linux commands` on `Linux Ubuntu`._
 
 
 
 
 ## Descrição [2]
 
+### `comandos`
+
+
+
 ### `palavra-chave`
 
-Uma palavra-chave é um termo ou expressão que representa um conceito central em um determinado contexto, como programação, marketing ou pesquisa. No âmbito da programação, palavras-chave são identificadores reservados que têm um significado específico na linguagem, como `if`, `else`, `for` e `function`, e não podem ser usados como nomes de variáveis ou funções. Em marketing digital e SEO, palavras-chave são os termos que os usuários digitam em mecanismos de busca e são fundamentais para otimizar conteúdos e aumentar a visibilidade online. Assim, as palavras-chave desempenham um papel crucial na comunicação, programação e busca de informações.
+Uma `palavra-chave` é um termo ou expressão que representa um conceito central em um determinado contexto, como programação, _marketing_ ou pesquisa. No âmbito da programação, `palavras-chave` são identificadores reservados que têm um significado específico na linguagem, como `if`, `else`, `for` e `function`, e não podem ser usados como nomes de variáveis ou funções. Em _marketing_ digital e SEO, `palavras-chave` são os termos que os usuários digitam em mecanismos de busca e são fundamentais para otimizar conteúdos e aumentar a visibilidade online. Assim, as `palavras-chave` desempenham um papel crucial na comunicação, programação e busca de informações.
 
 
+## 1. Como configurar/instalar/usar o `principais comandos do Linux` no `Linux Ubuntu` [1][3]
 
-
-## 1. Como configurar/instalar/usar o `Buscar palavra-chave em arquivo` no `Linux Ubuntu` [1][3]
-
-Para configurar/instalar/usar o `Buscar palavra-chave em arquivo` no `Linux Ubuntu`, você pode seguir estes passos:
+Para configurar/instalar/usar o `principais comandos do Linux` no `Linux Ubuntu`, você pode seguir estes passos:
 
 1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
 
@@ -153,9 +155,9 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `ping [hostname]`| Check network status             | Verificar status da rede                    |
 | `put [file]`   | Upload file from local to remote computer| Enviar arquivo de local para remoto     |
 | `quit`         | Logout                             | Sair                                         |
+| `traceroute [host]`| Trace route to host             | Rastrear rota até o host                    |
 | `wget [file_url]`| Download a file from url         | Baixar um arquivo de uma URL                |
 | `whois [domain]`| Show domain information           | Mostrar informações do domínio              |
-
 
 
 
@@ -164,17 +166,18 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | Comando         | Descrição em Inglês            | Descrição em Português                 |
 |-----------------|--------------------------------|----------------------------------------|
 | `adduser [user]`| Add a new user                 | Adicionar um novo usuário              |
+| `useradd [user]`| Add a new user                 | Adicionar um novo usuário              |
 | `chgrp [group] [directory]`| Change directory group | Mudar grupo de diretório          |
 | `groupadd [group]`| Add a new group              | Adicionar um novo grupo                |
 | `id`            | Show active user details       | Mostrar detalhes do usuário ativo      |
 | `last`          | Show last system logins        | Mostrar últimas entradas no sistema    |
 | `passwd [username]`| Change the password for the user | Mudar a senha do usuário        |
+| `su [user]`     | Switch user                    | Trocar de usuário                       |
 | `userdel [user]`| Delete a user                  | Excluir um usuário                     |
 | `usermod`       | Modify user information        | Modificar informações de um usuário    |
 | `usermod -aG [group] [user]` | Add user to group | Adicionar usuário a um grupo         |
 | `w`             | Show logged users and activity | Mostrar usuários logados e atividade   |
 | `who`           | Show who is logged in          | Mostrar quem está logado               |
-
 
 
 
@@ -185,7 +188,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `cd`            | Move up one level               | Subir um nível                        |
 | `cd`            | Change directory to $HOME       | Mudar diretório para o $HOME          |
 | `cd [location]` | Change to specified directory   | Mudar para o diretório especificado   |
-
+| `pwd`           | Print working directory         | Mostrar o diretório atual             |
 
 
 
@@ -242,6 +245,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | Comando                | Descrição em Inglês                   | Descrição em Português                              |
 |------------------------|---------------------------------------|-----------------------------------------------------|
 | `cat`                  | Show current day and month            | Mostrar dia e mês atuais                            |
+| `cal`                  | Show calendar                         | Mostrar calendário                                  |
 | `date`                 | Show current time and date            | Mostrar hora e data atuais                          |
 | `finger [username]`    | Show user information                 | Mostrar informações do usuário                      |
 | `hostname`             | Show system hostname                  | Mostrar nome do host do sistema                     |
@@ -255,7 +259,6 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `uname -r`             | Show system information               | Mostrar informações do sistema                      |
 | `uptime`               | Show uptime length/avg load           | Mostrar tempo de atividade/carga média              |
 | `whoami`               | Show the current user                 | Mostrar o usuário atual                             |
-
 
 
 
@@ -335,12 +338,12 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `ps`             | Show active process snapshot                  | Mostrar instantâneo de processos ativos                  |
 | `pstree`         | Show processes as a tree                      | Mostrar processos em forma de árvore                     |
 | `top`            | Show all running processes                    | Mostrar todos os processos em execução                   |
+| `htop`           | Interactive process viewer                    | Visualizador interativo de processos                     |
 | `wait`           | Pause terminal until process completes        | Pausar terminal até que o processo seja completado       |
 | `nice`           | Start a process with a given priority         | Iniciar um processo com uma prioridade dada              |
 | `fg`             | Most recent suspended job to foreground       | Trabalho suspenso mais recente para o primeiro plano     |
 | `ps PID`         | Give the status of a particular process       | Dar o status de um processo específico                   |
 | `renice`         | Change priority of a running process          | Mudar a prioridade de um processo em execução            |
-
 
 
 
@@ -350,13 +353,27 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 |------------------|----------------------------------------------|----------------------------------------------------------|
 | `alias [alias]='[command]'` | Create command alias            | Criar um alias para comando                              |
 | `at [hh:mm]`     | Schedule a job                               | Agendar um trabalho                                      |
+| `cp [source] [dest]` | Copy files or directories                | Copiar arquivos ou diretórios                            |
+| `diff [file1] [file2]` | Compare files                         | Comparar arquivos                                        |
 | `history`        | Print command history                        | Imprimir histórico de comandos                           |
 | `jobs`           | Display current jobs & status                | Mostrar trabalhos atuais e seu status                    |
+| `ln [target] [link_name]` | Create links                        | Criar links                                              |
+| `locate [pattern]` | Locate files                               | Localizar arquivos                                       |
 | `man [command]`  | Display command manual                       | Exibir manual de comando                                 |
-| `unalias`        | Remove an alias                              | Remover um alias                                         |
-| `watch -n [interval] [command]` | Set interval to run a command | Definir intervalo para executar um comando               |
+| `mv [source] [dest]` | Move or rename files                    | Mover ou renomear arquivos                               |
+| `nano [file]`    | Open a text editor                           | Abrir um editor de texto                                 |
+| `rm [file]`      | Remove files                                 | Remover arquivos                                         |
+| `rmdir [dir]`    | Remove empty directories                     | Remover diretórios vazios                                |
+| `sed 's/old/new/' [file]` | Search and replace                 | Buscar e substituir                                      |
 | `sleep [interval] && [command]` | Postpone command execution   | Adiar execução de comando                                |
-
+| `tail [file]`    | Show last lines of a file                    | Mostrar as últimas linhas de um arquivo                  |
+| `tee [file]`     | Write output to file and terminal            | Enviar saída para arquivo e terminal                     |
+| `touch [file]`   | Create empty file                            | Criar arquivo vazio                                      |
+| `unalias`        | Remove an alias                              | Remover um alias                                         |
+| `vi [file]`      | Open a text editor                           | Abrir um editor de texto                                 |
+| `watch -n [interval] [command]` | Set interval to run a command | Definir intervalo para executar um comando               |
+| `awk '{print $1}' [file]` | Pattern scanning and processing     | Buscar e manipular padrões                               |
+| `jed [file]`     | Open a text editor                           | Abrir um editor de texto                                 |
 
 
 
@@ -601,8 +618,8 @@ export CDPATH=$CDPATH:/home/edenedfsls/Documents/Downloads/unix/ubuntu
 
 ## Referências
 
-[1] OPENAI. ***Buscar palavra-chave em arquivo.*** Disponível em: <https://chatgpt.com/c/66e99b91-aa6c-8002-9401-ccd319b980e3> (texto adaptado). Acessado em: 17/09/2024 15:35.
+[1] OPENAI. ***Instalar o `principais comandos do linux` no `linux ubuntu` pelo `terminal emulator`.*** Disponível em: <https://chatgpt.com/c/66e99b91-aa6c-8002-9401-ccd319b980e3> (texto adaptado). Acessado em: 17/09/2024 15:35.
 
 [2] OPENAI. ***Vs code: editor popular.*** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). Acessado em: 17/09/2024 15:35.
 
-
+[3] USER: ARIS S.. ***Top 60 linux commands: what they are and how to use them effectively***. Disponível em: <https://www.hostinger.com/tutorials/linux-commands?utm_campaign=Generic-Tutorials-DSA-t2|NT:Se|Lang:EN|LO:BR&utm_medium=ppc&gad_source=1&gad_campaignid=20990084344&gbraid=0AAAAADMy-hYSlrOpsfeXBdAXnfXldpB1q&gclid=Cj0KCQiAtfXMBhDzARIsAJ0jp3AEsSUQb1rIe-QbnkGmvmQZE6_Z0EsQCsq1_QWC5ClqOkKkNxyOdvkaAiElEALw_wcB> (texto adaptado). Acessado em: 24/02/2026.
