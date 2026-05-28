@@ -427,7 +427,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 </div>
 
 
-## 17. Linux Cheat Sheet Aliases
+## 17. Linux Cheat Sheet _Aliases_
 
 1. **Abrir o `Terminal Emulator`**:
 
@@ -446,6 +446,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 3. **Copiar e colar o código abaixo no final do arquivo `~/.zshrc`**:
 
     ```bash
+    # Eden Denis, [11/02/2026 16:16]
     # =========================
     #  Linux Cheat Sheet Aliases
     # =========================
@@ -563,35 +564,168 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
     # ---
     # ATALHOS PARA PASTAS:
-    export CDPATH=$CDPATH:/home/edenedfsls/Documents/Downloads/unix
+    # Evita depender do mount remoto do rclone durante a inicializacao do shell.
     # ---
 
-    # ---- PRINCIPAIS ALIASES ----
+    # Eden Denis, [11/02/2026 16:16]
     # ---- PRINCIPAIS ALIASES ----
     alias cea="~/cea/cea_run"
-    alias cdaudithas='cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/subs/submodules/audithas'  # Específico
-    alias cddesktop="cd $HOME/Desktop"
-    alias cddocuments="cd $HOME/Documents"
-    alias cddownloads="cd $HOME/Downloads"
-    alias cdkmeans="cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/subs/submodules/k_means_thesis/"
-    alias cdlatexpresentationtemplate='cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/SEMESTRES/latex_presentation_template'  # Específico
-    alias cdlatexthetistemplate='cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/SEMESTRES/latex_thesis_template/subs/submodules/audithas'  # Específico
-    alias cdmusic="cd $HOME/Music"
-    alias cdpictures="cd $HOME/Pictures"
-    alias cdthesis="cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/"
+    alias cdaiinspector="cd ~/Documents/Downloads/unix/ubuntu/python/nicegui/subs/submodules/ai_inspector/"
+    alias cdaudithas='cd ~/Documents/Downloads/unix/ubuntu/python/nicegui/subs/submodules/ai_inspector/'  # Específico
+    alias cdc3gothermo="cd ~/Documents/Downloads/unix/ubuntu/python/nicegui/subs/submodules/c3go_thermo/"
+    alias cddesktop="cd ~/Desktop"
+    alias cddocuments="cd ~/Documents"
+    alias cddownloads="cd ~/Downloads"
+    alias cdita="cd ~/Documents/UNIVERSITIES/ITA/"
+    alias cdkmeans="cd ~/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/subs/submodules/k_means_thesis/"
+    alias cdlatexpresentationtemplate='cd ~/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/SEMESTRES/latex_presentation_template'  # Específico
+    alias cdlatexthetistemplate='cd ~/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/SEMESTRES/latex_thesis_template/subs/submodules/audithas'  # Específico
+    alias cdmusic="cd ~/Music"
+    alias cdpictures="cd ~/Pictures"
+    alias cdthesis="cd ~/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/"
     alias cdtrash="trash:///"
-    alias cdubuntu='cd $HOME/Documents/Downloads/unix/ubuntu/'
-    alias cdvideos="cd $HOME/Videos"
-    alias ls='ls -alF'
+    alias cdubuntu='cd ~/Documents/Downloads/unix/ubuntu/'
+    alias cdvideos="cd ~/Videos"
+    alias l="ls -alF --color"
+    alias ls='ls -alF --color'
     alias gitmergeandcleanup='./subs/submodules/shell_scripts/git_merge_and_cleanup.sh'
     alias preparerepo='./subs/submodules/shell_scripts/prepare_repo.sh'
     alias mkdir='mkdir -pv'
     alias python='python3.10'
     alias python3='python3.10'
     alias tree='tree -alF'
-    alias reboot='sudo reboot'
+    alias reboot='sudo reboot -f'
     alias shutdown='sudo shutdown now'
-    alias suspend='sudo systemctl suspend'
+    alias suspend='sudo systemctl suspend -f'
+    alias ytmp4='yt-dlp -f "bv*+ba/b" --merge-output-format mp4'
+    alias ytmp3='yt-dlp -x --audio-format mp3'
+
+    # ---
+    export PATH="$HOME/.npm-global/bin:$PATH"
+
+
+    # --- FOAM-EXTEND / OPENFOAM ALIASES ---
+    alias fe='bash -c "source /opt/foam/foam-extend-5.0/etc/bashrc && exec zsh"'
+    alias fe5='bash -c "source /opt/foam/foam-extend-5.0/etc/bashrc && exec zsh"'
+    alias foamextend='bash -c "source /opt/foam/foam-extend-5.0/etc/bashrc && exec zsh"'
+    alias foamextend5='bash -c "source /opt/foam/foam-extend-5.0/etc/bashrc && exec zsh"'
+    alias of='bash -c "source /opt/openfoam11/etc/bashrc && exec zsh"'
+    alias of11='bash -c "source /opt/openfoam11/etc/bashrc && exec zsh"'
+    alias openfoam11='bash -c "source /opt/openfoam11/etc/bashrc && exec zsh"'
+
+    # # Carregar foam-extend
+    # if [ -f /opt/foam/foam-extend-5.0/etc/bashrc ]; then
+    #     source /opt/foam/foam-extend-5.0/etc/bashrc
+    # fi
+
+    # --- Git ---
+    gh_latest_branch() {
+    local repo="$1"
+
+    gh api repos/"$repo"/branches --paginate \
+        --jq '.[] | [.name, .commit.sha] | @tsv' | \
+    while IFS=$'\t' read -r branch sha; do
+        gh api repos/"$repo"/commits/"$sha" \
+        --jq "\"\(.commit.committer.date) $branch\""
+    done | sort -r | head -n 1
+    }
+
+    alias gitsubmoduleaddshellscripts='git submodule add -b main --force git@github.com:edftechnology/shell_scripts.git subs/submodules/shell_scripts'
+    alias gitsubmoduleaddlso='git submodule add -b main git@github.com:edftechnology/lso_latex_synchronizer_with_overleaf.git subs/submodules/lso_latex_synchronizer_with_overleaf'
+    alias gitsubupdate='git submodule update --init --recursive --remote'
+
+    # --- TMUX ---
+    set -g @plugin 'tmux-plugins/tmux-resurrect'
+
+    # --- Chemical Equilibrium with Applications (CEA) ---
+    alias cea="~/cea/cea_run"
+
+    # --- LSO: overleaf.com ---
+    alias gitsubmoduleaddlso='git submodule add git@github.com:edftechnology/lso_latex_synchronizer_with_overleaf.git subs/submodules/lso_latex_synchronizer_with_overleaf'
+
+    lso() {
+        # Define o caminho para o script em relação ao diretório atual ou raiz do projeto
+        # Ajuste o caminho abaixo se você mover o diretório de execução
+        local LSO_PATH="subs/submodules/lso_latex_synchronizer_with_overleaf/scripts/lso_latex_synchronizer_with_overleaf.py"
+        
+        # Verifica se o script existe no caminho relativo atual
+        if [ ! -f "$LSO_PATH" ]; then
+            echo "[ERROR] LSO script não encontrado em: $LSO_PATH"
+            return 1
+        fi
+    
+        # Se o primeiro argumento for um subcomando e nao houver --repo-path, insere automaticamente
+        if [[ "$1" =~ ^(init|list|sync|watch|remote|login|fetch|pull|push|download_pdf)$ ]]; then
+            python3 "$LSO_PATH" "$1" --repo-path . "${@:2}"
+        else
+            python3 "$LSO_PATH" "$@"
+        fi
+        }
+
+    # alias lso-init='lso init'
+    # alias lso-login='lso login'
+    # alias lso-list='lso list'
+    # alias lso-download_pdf='lso download_pdf'
+    # alias lso-sync='lso sync'
+    # alias lso-bisync='lso bisync'
+    # alias lso-watch='lso watch'
+    # alias lso-watch_session='lso watch_session'
+    # alias lso-watch_session-status='lso watch_session_status'
+    # alias lso-watch_session-stop='lso watch_session_stop'
+    # alias lso-prune_local='lso prune_local'
+    # alias lso-prune_local-all='lso prune_local-all'
+    # alias lso-help='lso --help'
+
+    # --- LSO: servidor interno ---
+    alias gitsubmoduleaddlso='git submodule add git@github.com:edftechnology/lso_latex_synchronizer_with_overleaf.git subs/submodules/lso_latex_synchronizer_with_overleaf'
+    alias lso-int-init='python3 subs/submodules/lso_latex_synchronizer_with_overleaf/scripts/lso_latex_synchronizer_with_overleaf.py init --repo_path . --host http://192.168.XX.YYY:8001/project'
+    alias lso-int-sync='python3 subs/submodules/lso_latex_synchronizer_with_overleaf/scripts/lso_latex_synchronizer_with_overleaf.py sync --repo_path . --host http://192.168.XX.YYY:8001/project'
+    alias lso-int-watch='python3 subs/submodules/lso_latex_synchronizer_with_overleaf/scripts/lso_latex_synchronizer_with_overleaf.py watch --repo_path . --host http://192.168.XX.YYY:8001/project'
+    alias lso-int-bisync='python3 subs/submodules/lso_latex_synchronizer_with_overleaf/scripts/lso_latex_synchronizer_with_overleaf.py bisync --repo_path . --host http://192.168.XX.YYY:8001/project'
+
+    lso-int-compile-sync() {
+    if [ "$1" != "--project_id" ] || [ -z "$2" ]; then
+        printf 'Usage: lso-int-compile-sync --project_id <ID_DO_SEU_PROJETO_OVERLEAF>\n' >&2
+        return 2
+    fi
+
+    python3 subs/submodules/lso_latex_synchronizer_with_overleaf/scripts/lso_latex_synchronizer_with_overleaf.py \
+        init --repo_path . --profile compile --force \
+        --host http://192.168.XX.YYY:8001/project &&
+
+    python3 subs/submodules/lso_latex_synchronizer_with_overleaf/scripts/lso_latex_synchronizer_with_overleaf.py \
+        sync --repo_path . --project_id "$2" --prune_remote \
+        --host http://192.168.XX.YYY:8001/project
+    }
+
+    # --- Desativar/Ativar o touchpad/mousepad ---
+    alias mousepad_off='xinput disable "DLL07B0:01 044E:120B"'
+    alias mousepad_on='xinput enable "DLL07B0:01 044E:120B"'
+
+    alias touchpad_off='xinput disable "DLL07B0:01 044E:120B"'
+    alias touchpad_on='xinput enable "DLL07B0:01 044E:120B"'
+
+    # --- ollama --
+    ## Ajustar performance da cpu
+    export OLLAMA_NUM_THREADS=$(nproc --ignore=2)
+    ## - deixa 2 núcleos livres
+
+    export OLLAMA_MAX_LOADED_MODELS=$(nproc --ignore=2)
+    ## - mantém sistema responsivo
+    export PATH="$HOME/bin:$PATH"
+
+    # --- gaseq ---
+    alias gaseq='WINEPREFIX=$HOME/.wine-gaseq wine "C:\\Program Files\\GASEQ\\Gaseq.exe"'
+
+    # --- Codex ---
+    alias codex='command codex'
+    alias codex-safe='command codex'
+    alias codex-fast='command codex'
+    alias codex-full='command codex -a never -s danger-full-access'
+    alias codex-yolo='command codex -a never -s danger-full-access'
+
+    # --- Android Studio ---
+    alias android-studio='/opt/android-studio/bin/studio'
 
     # ---
     ```
