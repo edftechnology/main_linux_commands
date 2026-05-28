@@ -139,6 +139,8 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 ## 2. Rede
 
+<div align="center">
+
 | Comando        | Descrição em Inglês                 | Descrição em Português                      |
 |----------------|-------------------------------------|---------------------------------------------|
 | `dig -x [ip]`  | IP address reverse lookup          | Consulta reversa de endereço IP             |
@@ -159,9 +161,11 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `wget [file_url]`| Download a file from url         | Baixar um arquivo de uma URL                |
 | `whois [domain]`| Show domain information           | Mostrar informações do domínio              |
 
-
+</div>
 
 ## 3. Comandos de usuários e grupos
+
+<div align="center">
 
 | Comando         | Descrição em Inglês            | Descrição em Português                 |
 |-----------------|--------------------------------|----------------------------------------|
@@ -179,9 +183,11 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `w`             | Show logged users and activity | Mostrar usuários logados e atividade   |
 | `who`           | Show who is logged in          | Mostrar quem está logado               |
 
-
+</div>
 
 ## 4. Comandos de Navegação de Diretórios
+
+<div align="center">
 
 | Comando         | Descrição em Inglês             | Descrição em Português                |
 |-----------------|---------------------------------|---------------------------------------|
@@ -190,9 +196,11 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `cd [location]` | Change to specified directory   | Mudar para o diretório especificado   |
 | `pwd`           | Print working directory         | Mostrar o diretório atual             |
 
-
+</div>
 
 ## 5. Informações de Hardware
+
+<div align="center">
 
 | Comando          | Descrição em Inglês               | Descrição em Português                  |
 |------------------|-----------------------------------|-----------------------------------------|
@@ -208,10 +216,11 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `hdparm -Tt /dev/[disk]`| Disk read speed test       | Teste de velocidade de leitura do disco |
 | `badblocks -s /dev/[disk]`| Unreadable blocks test   | Teste de blocos ilegíveis               |
 
-
-
+</div>
 
 ## 6. Compressão de Arquivos
+
+<div align="center">
 
 | Comando               | Descrição em Inglês                 | Descrição em Português                  |
 |-----------------------|-------------------------------------|-----------------------------------------|
@@ -221,10 +230,12 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `tar cf [file.tar] [file]`| Create a tar file from a file  | Criar um arquivo tar a partir de um arquivo|
 | `tar czf [file.tar.gz]`| Create a gzip tar file            | Criar um arquivo tar gzip               |
 
-
+</div>
 
 
 ## 7. Instalação de Pacotes
+
+<div align="center">
 
 | Comando                     | Descrição em Inglês                    | Descrição em Português                             |
 |-----------------------------|----------------------------------------|----------------------------------------------------|
@@ -237,10 +248,12 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `yum install [package]`     | Install a package with YUM              | Instalar um pacote com YUM                         |
 | `yum search [package]`      | Find a package by a keyword             | Encontrar um pacote por uma palavra-chave          |
 
-
+</div>
 
 
 ## 8. Gerenciamento de Sistema
+
+<div align="center">
 
 | Comando                | Descrição em Inglês                   | Descrição em Português                              |
 |------------------------|---------------------------------------|-----------------------------------------------------|
@@ -260,9 +273,11 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `uptime`               | Show uptime length/avg load           | Mostrar tempo de atividade/carga média              |
 | `whoami`               | Show the current user                 | Mostrar o usuário atual                             |
 
-
+</div>
 
 ## 9. Permissões de Arquivo
+
+<div align="center">
 
 | Comando          | Descrição em Inglês                             | Descrição em Português                                   |
 |------------------|-------------------------------------------------|----------------------------------------------------------|
@@ -272,10 +287,12 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `chown [user][file]` | Change file ownership                            | Mudar a propriedade do arquivo                                     |
 | `chown [user][group][file]` | Change file owner and group                    | Mudar o proprietário do arquivo e grupo                            |
 
+</div>
 
 
+## 10. _Login_ SSH
 
-## 10. Login SSH
+<div align="center">
 
 | Comando           | Descrição em Inglês                       | Descrição em Português                               |
 |-------------------|-------------------------------------------|------------------------------------------------------|
@@ -284,10 +301,12 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `telnet [host]`    | Connect to Telnet via port 23            | Conectar ao Telnet via porta 23                      |
 | `ssh -p [port][user]@[host]`| Use a non-default port           | Usar uma porta não padrão                            |
 
-
+</div>
 
 
 ## 11. Variáveis Bash
+
+<div align="center">
 
 | Comando             | Descrição em Inglês                       | Descrição em Português                                 |
 |---------------------|-------------------------------------------|--------------------------------------------------------|
@@ -297,20 +316,24 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `let [variable]=[value]` | Assign integer value to var          | Atribuir valor inteiro à variável                      |
 | `set`               | List variables and functions              | Listar variáveis e funções                             |
 
-
+</div>
 
 
 ## 12. Transferência de Arquivos
+
+<div align="center">
 
 | Comando         | Descrição em Inglês                | Descrição em Português                                 |
 |-----------------|------------------------------------|--------------------------------------------------------|
 | `scp [file.txt][server:/tmp]` | Securely transfer a file   | Transferir um arquivo de forma segura                  |
 | `rsync -a /location/ /backup/` | Sync the contents of a location with the backup directory | Sincronizar os conteúdos de uma localização com o diretório de backup |
 
-
+</div>
 
 
 ## 13. Uso de Disco
+
+<div align="center">
 
 | Comando        | Descrição em Inglês                        | Descrição em Português                                   |
 |----------------|--------------------------------------------|----------------------------------------------------------|
@@ -321,10 +344,12 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `findmnt`      | Show target mount point                    | Mostrar ponto de montagem alvo                           |
 | `mount [device][mount point]` | Mount a device               | Montar um dispositivo                                    |
 
-
+</div>
 
 
 ## 14. Processos Relacionados
+
+<div align="center">
 
 | Comando          | Descrição em Inglês                           | Descrição em Português                                   |
 |------------------|-----------------------------------------------|----------------------------------------------------------|
@@ -345,9 +370,11 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `ps PID`         | Give the status of a particular process       | Dar o status de um processo específico                   |
 | `renice`         | Change priority of a running process          | Mudar a prioridade de um processo em execução            |
 
+</div>
 
+## 15. Comandos de _Shell_
 
-## 15. Comandos de Shell
+<div align="center">
 
 | Comando          | Descrição em Inglês                          | Descrição em Português                                   |
 |------------------|----------------------------------------------|----------------------------------------------------------|
@@ -375,9 +402,11 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `awk '{print $1}' [file]` | Pattern scanning and processing     | Buscar e manipular padrões                               |
 | `jed [file]`     | Open a text editor                           | Abrir um editor de texto                                 |
 
-
+</div>
 
 ## 16. Atalhos de Teclado
+
+<div align="center">
 
 | Atalho           | Ação                                         |
 |------------------|----------------------------------------------|
@@ -395,7 +424,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `Ctrl + Alt + F7`| Switch to the first graphical terminal       |
 | `Ctrl + Alt + F10`| Switch to a virtual console                 |
 
-
+</div>
 
 
 ## 17. Linux Cheat Sheet Aliases
@@ -618,8 +647,8 @@ export CDPATH=$CDPATH:/home/edenedfsls/Documents/Downloads/unix/ubuntu
 
 ## Referências
 
-[1] OPENAI. ***Instalar o `principais comandos do linux` no `linux ubuntu` pelo `terminal emulator`.*** Disponível em: <https://chatgpt.com/c/66e99b91-aa6c-8002-9401-ccd319b980e3> (texto adaptado). Acessado em: 17/09/2024 15:35.
+[1] OPENAI. **Instalar o `principais comandos do linux` no `linux ubuntu` pelo `terminal emulator`.*** Disponível em: <https://chatgpt.com/c/66e99b91-aa6c-8002-9401-ccd319b980e3> (texto adaptado). Acessado em: 17/09/2024 15:35.
 
-[2] OPENAI. ***Vs code: editor popular.*** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). Acessado em: 17/09/2024 15:35.
+[2] OPENAI. **Vs code: editor popular.** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). Acessado em: 17/09/2024 15:35.
 
-[3] USER: ARIS S.. ***Top 60 linux commands: what they are and how to use them effectively***. Disponível em: <https://www.hostinger.com/tutorials/linux-commands?utm_campaign=Generic-Tutorials-DSA-t2|NT:Se|Lang:EN|LO:BR&utm_medium=ppc&gad_source=1&gad_campaignid=20990084344&gbraid=0AAAAADMy-hYSlrOpsfeXBdAXnfXldpB1q&gclid=Cj0KCQiAtfXMBhDzARIsAJ0jp3AEsSUQb1rIe-QbnkGmvmQZE6_Z0EsQCsq1_QWC5ClqOkKkNxyOdvkaAiElEALw_wcB> (texto adaptado). Acessado em: 24/02/2026.
+[3] USER: ARIS S.. **Top 60 linux commands: what they are and how to use them effectively**. Disponível em: <https://www.hostinger.com/tutorials/linux-commands?utm_campaign=Generic-Tutorials-DSA-t2|NT:Se|Lang:EN|LO:BR&utm_medium=ppc&gad_source=1&gad_campaignid=20990084344&gbraid=0AAAAADMy-hYSlrOpsfeXBdAXnfXldpB1q&gclid=Cj0KCQiAtfXMBhDzARIsAJ0jp3AEsSUQb1rIe-QbnkGmvmQZE6_Z0EsQCsq1_QWC5ClqOkKkNxyOdvkaAiElEALw_wcB> (texto adaptado). Acessado em: 24/02/2026.
