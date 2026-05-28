@@ -437,167 +437,164 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 2. **Abrir o arquivo `source` do `Terminal Emulator`**:
 
-```bash
-sudo nano ~/.zshrc
-```
+    ```bash
+    sudo nano ~/.zshrc
+    ```
 
-Substitua `zshrc` por `bashrc` caso você use o `bash`.
-
-
-
+    Substitua `zshrc` por `bashrc` caso você use o `bash`.
 
 3. **Copiar e colar o código abaixo no final do arquivo `~/.zshrc`**:
 
-```bash
-# =========================
-#  Linux Cheat Sheet Aliases
-# =========================
+    ```bash
+    # =========================
+    #  Linux Cheat Sheet Aliases
+    # =========================
 
-# ---- PRINCIPAIS ALIASES ----
-alias ls='ls -alF'
-alias mkdir='mkdir -pv'
-alias tree='tree -alF'
+    # ---- PRINCIPAIS ALIASES ----
+    alias ls='ls -alF'
+    alias mkdir='mkdir -pv'
+    alias tree='tree -alF'
 
-# ---- Atualização e Limpeza do Sistema ----
-alias update='sudo apt update && sudo apt list --upgradable && sudo apt full-upgrade -y'
-alias cleanapt='sudo apt clean && sudo apt autoclean && sudo apt autoremove -y'
+    # ---- Atualização e Limpeza do Sistema ----
+    alias update='sudo apt update && sudo apt list --upgradable && sudo apt full-upgrade -y'
+    alias cleanapt='sudo apt clean && sudo apt autoclean && sudo apt autoremove -y'
 
-# ---- Navegação Rápida ----
-alias home='cd ~'
-alias docs='cd ~/Documents'
-alias desk='cd ~/Desktop'
+    # ---- Navegação Rápida ----
+    alias home='cd ~'
+    alias docs='cd ~/Documents'
+    alias desk='cd ~/Desktop'
 
-# ---- Listagem de Arquivos e Pastas ----
-alias ll='ls -alF --color=auto'
-alias la='ls -A --color=auto'
-alias l='ls -CF --color=auto'
+    # ---- Listagem de Arquivos e Pastas ----
+    alias ll='ls -alF --color=auto'
+    alias la='ls -A --color=auto'
+    alias l='ls -CF --color=auto'
 
-# ---- Busca e Inspeção ----
-alias grep='grep --color=auto'
-alias finddir='find . -type d -name'
-alias findfile='find . -type f -name'
+    # ---- Busca e Inspeção ----
+    alias grep='grep --color=auto'
+    alias finddir='find . -type d -name'
+    alias findfile='find . -type f -name'
 
-# ---- Monitoramento de Sistema ----
-alias meminfo='free -h'
-alias cpuinfo='lscpu'
-alias diskuse='df -h'
-alias proc='ps aux --sort=-%mem | head'
-alias topcpu='ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head'
+    # ---- Monitoramento de Sistema ----
+    alias meminfo='free -h'
+    alias cpuinfo='lscpu'
+    alias diskuse='df -h'
+    alias proc='ps aux --sort=-%mem | head'
+    alias topcpu='ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head'
 
-# ---- Rede ----
-alias myip='hostname -I'
-alias pingg='ping google.com'
-alias netlisten='netstat -pntlu'
+    # ---- Rede ----
+    alias myip='hostname -I'
+    alias pingg='ping google.com'
+    alias netlisten='netstat -pntlu'
 
-# ---- Transferência de Arquivos ----
-alias scpup='scp'
-alias rsyncup='rsync -avz'
+    # ---- Transferência de Arquivos ----
+    alias scpup='scp'
+    alias rsyncup='rsync -avz'
 
-# ---- Informações de Hardware ----
-alias usbinfo='lsusb'
-alias pciinfo='lspci'
-alias diskinfo='lsblk'
-alias cpumodel='cat /proc/cpuinfo | grep "model name" | uniq'
+    # ---- Informações de Hardware ----
+    alias usbinfo='lsusb'
+    alias pciinfo='lspci'
+    alias diskinfo='lsblk'
+    alias cpumodel='cat /proc/cpuinfo | grep "model name" | uniq'
 
-# ---- Processos ----
-alias killpid='kill -9'
-alias psgrep='ps aux | grep -i'
+    # ---- Processos ----
+    alias killpid='kill -9'
+    alias psgrep='ps aux | grep -i'
 
-# ---- Uso de Disco ----
-alias diskfree='df -h'
-alias diskdu='du -sh * 2>/dev/null'
+    # ---- Uso de Disco ----
+    alias diskfree='df -h'
+    alias diskdu='du -sh * 2>/dev/null'
 
-# ---- Segurança ----
-alias sshcon='ssh'
-alias sftpcon='sftp'
+    # ---- Segurança ----
+    alias sshcon='ssh'
+    alias sftpcon='sftp'
 
-# ---- Atualização e Limpeza do Sistema ----
-alias update='sudo apt update && sudo apt list --upgradable && sudo apt full-upgrade -y'
-alias cleanapt='sudo apt clean && sudo apt autoclean && sudo apt autoremove -y'
+    # ---- Atualização e Limpeza do Sistema ----
+    alias update='sudo apt update && sudo apt list --upgradable && sudo apt full-upgrade -y'
+    alias cleanapt='sudo apt clean && sudo apt autoclean && sudo apt autoremove -y'
 
-# ---- Navegação Rápida ----
-alias home='cd ~'
-alias docs='cd ~/Documents'
-alias desk='cd ~/Desktop'
+    # ---- Navegação Rápida ----
+    alias home='cd ~'
+    alias docs='cd ~/Documents'
+    alias desk='cd ~/Desktop'
 
-# ---- Listagem de Arquivos e Pastas ----
-alias ll='ls -alF --color=auto'
-alias la='ls -A --color=auto'
-alias l='ls -CF --color=auto'
+    # ---- Listagem de Arquivos e Pastas ----
+    alias ll='ls -alF --color=auto'
+    alias la='ls -A --color=auto'
+    alias l='ls -CF --color=auto'
 
-# ---- Busca e Inspeção ----
-alias grep='grep --color=auto'
-alias finddir='find . -type d -name'
-alias findfile='find . -type f -name'
+    # ---- Busca e Inspeção ----
+    alias grep='grep --color=auto'
+    alias finddir='find . -type d -name'
+    alias findfile='find . -type f -name'
 
-# ---- Monitoramento de Sistema ----
-alias meminfo='free -h'
-alias cpuinfo='lscpu'
-alias diskuse='df -h'
-alias proc='ps aux --sort=-%mem | head'
-alias topcpu='ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head'
+    # ---- Monitoramento de Sistema ----
+    alias meminfo='free -h'
+    alias cpuinfo='lscpu'
+    alias diskuse='df -h'
+    alias proc='ps aux --sort=-%mem | head'
+    alias topcpu='ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head'
 
-# ---- Rede ----
-alias myip='hostname -I'
-alias pingg='ping google.com'
-alias netlisten='netstat -pntlu'
+    # ---- Rede ----
+    alias myip='hostname -I'
+    alias pingg='ping google.com'
+    alias netlisten='netstat -pntlu'
 
-# ---- Transferência de Arquivos ----
-alias scpup='scp'
-alias rsyncup='rsync -avz'
+    # ---- Transferência de Arquivos ----
+    alias scpup='scp'
+    alias rsyncup='rsync -avz'
 
-# ---- Informações de Hardware ----
-alias usbinfo='lsusb'
-alias pciinfo='lspci'
-alias diskinfo='lsblk'
-alias cpumodel='cat /proc/cpuinfo | grep "model name" | uniq'
+    # ---- Informações de Hardware ----
+    alias usbinfo='lsusb'
+    alias pciinfo='lspci'
+    alias diskinfo='lsblk'
+    alias cpumodel='cat /proc/cpuinfo | grep "model name" | uniq'
 
-# ---- Processos ----
-alias killpid='kill -9'
-alias psgrep='ps aux | grep -i'
+    # ---- Processos ----
+    alias killpid='kill -9'
+    alias psgrep='ps aux | grep -i'
 
-# ---- Uso de Disco ----
-alias diskfree='df -h'
-alias diskdu='du -sh * 2>/dev/null'
+    # ---- Uso de Disco ----
+    alias diskfree='df -h'
+    alias diskdu='du -sh * 2>/dev/null'
 
-# ---- Segurança ----
-alias sshcon='ssh'
-alias sftpcon='sftp'
+    # ---- Segurança ----
+    alias sshcon='ssh'
+    alias sftpcon='sftp'
 
-# ---
-# ATALHOS PARA PASTAS:
-export CDPATH=$CDPATH:/home/edenedfsls/Documents/Downloads/unix
-# ---
+    # ---
+    # ATALHOS PARA PASTAS:
+    export CDPATH=$CDPATH:/home/edenedfsls/Documents/Downloads/unix
+    # ---
 
-# ---- PRINCIPAIS ALIASES ----
-# ---- PRINCIPAIS ALIASES ----
-alias cea="~/cea/cea_run"
-alias cdaudithas='cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/subs/submodules/audithas'  # Específico
-alias cddesktop="cd $HOME/Desktop"
-alias cddocuments="cd $HOME/Documents"
-alias cddownloads="cd $HOME/Downloads"
-alias cdkmeans="cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/subs/submodules/k_means_thesis/"
-alias cdlatexpresentationtemplate='cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/SEMESTRES/latex_presentation_template'  # Específico
-alias cdlatexthetistemplate='cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/SEMESTRES/latex_thesis_template/subs/submodules/audithas'  # Específico
-alias cdmusic="cd $HOME/Music"
-alias cdpictures="cd $HOME/Pictures"
-alias cdthesis="cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/"
-alias cdtrash="trash:///"
-alias cdubuntu='cd $HOME/Documents/Downloads/unix/ubuntu/'
-alias cdvideos="cd $HOME/Videos"
-alias ls='ls -alF'
-alias gitmergeandcleanup='./subs/submodules/shell_scripts/git_merge_and_cleanup.sh'
-alias preparerepo='./subs/submodules/shell_scripts/prepare_repo.sh'
-alias mkdir='mkdir -pv'
-alias python='python3.10'
-alias python3='python3.10'
-alias tree='tree -alF'
-alias reboot='sudo reboot'
-alias shutdown='sudo shutdown now'
-alias suspend='sudo systemctl suspend'
+    # ---- PRINCIPAIS ALIASES ----
+    # ---- PRINCIPAIS ALIASES ----
+    alias cea="~/cea/cea_run"
+    alias cdaudithas='cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/subs/submodules/audithas'  # Específico
+    alias cddesktop="cd $HOME/Desktop"
+    alias cddocuments="cd $HOME/Documents"
+    alias cddownloads="cd $HOME/Downloads"
+    alias cdkmeans="cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/subs/submodules/k_means_thesis/"
+    alias cdlatexpresentationtemplate='cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/SEMESTRES/latex_presentation_template'  # Específico
+    alias cdlatexthetistemplate='cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/SEMESTRES/latex_thesis_template/subs/submodules/audithas'  # Específico
+    alias cdmusic="cd $HOME/Music"
+    alias cdpictures="cd $HOME/Pictures"
+    alias cdthesis="cd $HOME/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/"
+    alias cdtrash="trash:///"
+    alias cdubuntu='cd $HOME/Documents/Downloads/unix/ubuntu/'
+    alias cdvideos="cd $HOME/Videos"
+    alias ls='ls -alF'
+    alias gitmergeandcleanup='./subs/submodules/shell_scripts/git_merge_and_cleanup.sh'
+    alias preparerepo='./subs/submodules/shell_scripts/prepare_repo.sh'
+    alias mkdir='mkdir -pv'
+    alias python='python3.10'
+    alias python3='python3.10'
+    alias tree='tree -alF'
+    alias reboot='sudo reboot'
+    alias shutdown='sudo shutdown now'
+    alias suspend='sudo systemctl suspend'
 
-# ---
-```
+    # ---
+    ```
 
 4. Atualizar o `source` do `Terminal`:
 
@@ -619,21 +616,21 @@ alias suspend='sudo systemctl suspend'
 
 2. **Abrir o arquivo `source` do `Terminal Emulator`**:
 
-```bash
-sudo nano ~/.zshrc
-```
+    ```bash
+    sudo nano ~/.zshrc
+    ```
 
 Substitua `zshrc` por `bashrc` caso você use o `bash`.
 
 
 3. **Copiar e colar o código abaixo no final do arquivo `~/.zshrc`**:
 
-```bash
-# ---
-# ATALHOS PARA PASTAS:
-export CDPATH=$CDPATH:/home/edenedfsls/Documents/Downloads/unix/ubuntu
-# ---
-```
+    ```bash
+    # ---
+    # ATALHOS PARA PASTAS:
+    export CDPATH=$CDPATH:/home/edenedfsls/Documents/Downloads/unix/ubuntu
+    # ---
+    ```
 
 4. Atualizar o `source` do `Terminal`:
 
