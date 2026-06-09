@@ -134,12 +134,9 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
     NÃO há.
     ```
 
-
-
-
 ### 1.2 Tabela Resumo dos Diretórios Essenciais [4]
 
-# Resumo das Principais Pastas do Linux
+<div align="center">
 
 | Diretório | Descrição | Exemplos |
 |------------|------------|------------|
@@ -160,6 +157,8 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | `/tmp` | Arquivos temporários (geralmente removidos após reinicialização). | Arquivos temporários criados por aplicações |
 | `/usr` | Programas, bibliotecas e utilitários de uso geral. | `/usr/bin/gcc`, `/usr/share/doc` |
 | `/var` | Dados variáveis do sistema, como logs, filas e arquivos temporários persistentes. | `/var/log`, `/var/spool/mail` |
+
+</div>
 
 
 ## 2. Rede
