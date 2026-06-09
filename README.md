@@ -137,6 +137,31 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 
 
+### 1.2 Tabela Resumo dos Diretórios Essenciais [4]
+
+# Resumo das Principais Pastas do Linux
+
+| Diretório | Descrição | Exemplos |
+|------------|------------|------------|
+| `/` | Diretório raiz (*root*), o topo da hierarquia do sistema de arquivos. | Todos os caminhos absolutos começam aqui. |
+| `/bin` | Binários essenciais para os usuários (comandos). | `ls`, `cp`, `mv`, `rm` |
+| `/boot` | Arquivos de inicialização (*boot loader*), incluindo kernel, initrd e configurações do carregador de boot. | Imagem do kernel, configuração do GRUB |
+| `/dev` | Arquivos de dispositivos (*device files*), representando dispositivos de hardware. | `/dev/sda`, `/dev/tty` |
+| `/etc` | Arquivos de configuração globais do sistema. | `/etc/network/interfaces`, `/etc/passwd`, `/etc/ssh/sshd_config` |
+| `/home` | Diretórios pessoais dos usuários. | `/home/joao`, `/home/maria` |
+| `/lib` | Bibliotecas compartilhadas essenciais do sistema. | `libc.so` |
+| `/media` | Ponto de montagem para mídias removíveis (pendrives, CDs, DVDs etc.). | `/media/cdrom`, `/media/usb` |
+| `/mnt` | Ponto de montagem temporário. | Montagem de um compartilhamento de rede em `/mnt` |
+| `/opt` | Software opcional de terceiros. | Instalação de uma suíte de software em `/opt` |
+| `/proc` | Informações sobre processos e o kernel (sistema de arquivos virtual). | `/proc/cpuinfo`, `/proc/[pid]` |
+| `/root` | Diretório pessoal do usuário administrador (*root*). | `/root/.bashrc` |
+| `/sbin` | Binários de administração do sistema (comandos administrativos). | `fdisk`, `shutdown` |
+| `/srv` | Dados utilizados por serviços do sistema, como servidores web e FTP. | `/srv/www` |
+| `/tmp` | Arquivos temporários (geralmente removidos após reinicialização). | Arquivos temporários criados por aplicações |
+| `/usr` | Programas, bibliotecas e utilitários de uso geral. | `/usr/bin/gcc`, `/usr/share/doc` |
+| `/var` | Dados variáveis do sistema, como logs, filas e arquivos temporários persistentes. | `/var/log`, `/var/spool/mail` |
+
+
 ## 2. Rede
 
 <div align="center">
@@ -778,8 +803,10 @@ Substitua `zshrc` por `bashrc` caso você use o `bash`.
 
 ## Referências
 
-[1] OPENAI. **Instalar o `principais comandos do linux` no `linux ubuntu` pelo `terminal emulator`.*** Disponível em: <https://chatgpt.com/c/66e99b91-aa6c-8002-9401-ccd319b980e3> (texto adaptado). Acessado em: 17/09/2024 15:35.
+[1] OPENAI. **Instalar o `principais comandos do linux` no `linux ubuntu` pelo `terminal emulator`.** Disponível em: <https://chatgpt.com/c/66e99b91-aa6c-8002-9401-ccd319b980e3> (texto adaptado). Acessado em: 17/09/2024 15:35.
 
 [2] OPENAI. **Vs code: editor popular.** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). Acessado em: 17/09/2024 15:35.
 
 [3] USER: ARIS S.. **Top 60 linux commands: what they are and how to use them effectively**. Disponível em: <https://www.hostinger.com/tutorials/linux-commands?utm_campaign=Generic-Tutorials-DSA-t2|NT:Se|Lang:EN|LO:BR&utm_medium=ppc&gad_source=1&gad_campaignid=20990084344&gbraid=0AAAAADMy-hYSlrOpsfeXBdAXnfXldpB1q&gclid=Cj0KCQiAtfXMBhDzARIsAJ0jp3AEsSUQb1rIe-QbnkGmvmQZE6_Z0EsQCsq1_QWC5ClqOkKkNxyOdvkaAiElEALw_wcB> (texto adaptado). Acessado em: 24/02/2026.
+
+[4] ROADMAP.SH. **Linux terminal basics**. Disponível em: <https://roadmap.sh/ai/course/linux-terminal-basics>. Acessado em: 09/06/2026.
