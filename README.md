@@ -476,9 +476,9 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
     # =========================
 
     # ---- PRINCIPAIS ALIASES ----
-    alias ls='ls -alF'
+    alias ls='ls -ahlF'
     alias mkdir='mkdir -pv'
-    alias tree='tree -alF'
+    alias tree='tree -ahlF'
 
     # ---- Atualização e Limpeza do Sistema ----
     alias update='sudo apt update && sudo apt list --upgradable && sudo apt full-upgrade -y'
@@ -490,7 +490,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
     alias desk='cd ~/Desktop'
 
     # ---- Listagem de Arquivos e Pastas ----
-    alias ll='ls -alF --color=auto'
+    alias ll='ls -ahlF --color=auto'
     alias la='ls -A --color=auto'
     alias l='ls -CF --color=auto'
 
@@ -543,7 +543,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
     alias desk='cd ~/Desktop'
 
     # ---- Listagem de Arquivos e Pastas ----
-    alias ll='ls -alF --color=auto'
+    alias ll='ls -ahlF --color=auto'
     alias la='ls -A --color=auto'
     alias l='ls -CF --color=auto'
 
@@ -610,14 +610,14 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
     alias cdtrash="trash:///"
     alias cdubuntu='cd ~/Documents/Downloads/unix/ubuntu/'
     alias cdvideos="cd ~/Videos"
-    alias l="ls -alF --color"
-    alias ls='ls -alF --color'
+    alias l="ls -ahlF --color"
+    alias ls='ls -ahlF --color'
     alias gitmergeandcleanup='./subs/submodules/shell_scripts/git_merge_and_cleanup.sh'
     alias preparerepo='./subs/submodules/shell_scripts/prepare_repo.sh'
     alias mkdir='mkdir -pv'
     alias python='python3.10'
     alias python3='python3.10'
-    alias tree='tree -alF'
+    alias tree='tree -ahlF'
     alias reboot='sudo reboot -f'
     alias shutdown='sudo shutdown now'
     alias suspend='sudo systemctl suspend -f'
