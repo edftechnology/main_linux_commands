@@ -433,7 +433,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 <div align="center">
 
 | Atalho           | Ação                                         |
-|------------------|----------------------------------------------|
+|:----------------:|----------------------------------------------|
 | `!!`             | Repeat the last command                      |
 | `exit`           | Log out of the session                       |
 | `Ctrl + C`       | Kill current process                         |
