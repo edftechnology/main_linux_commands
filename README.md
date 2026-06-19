@@ -610,8 +610,19 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
     alias cdtrash="trash:///"
     alias cdubuntu='cd ~/Documents/Downloads/unix/ubuntu/'
     alias cdvideos="cd ~/Videos"
+    alias cp="cp -ai"  # Cópia segura para o uso diário;-a: archive, -i: interactive (ask before overwrite)
+    alias cpb="cp -aiv --"  # Cópia para backup/sincronização manual;-a: archive, -i: interactive (ask before overwrite), -v: verbose, --: end of options (permite copiar arquivos começando com -)
+    alias cpi="cp -ai"  # Cópia segura para o uso diário;-a: archive, -i: interactive (ask before overwrite)
+    alias cpu="cp -auv"  # Cópia para backup/sincronização manual;-a: archive, -u: update (copy only when source is newer than destination), -v: verbose
+    alias cpn="cp -anv"  # Cópia extremamente conservadora;-a: archive, -n: no-clobber (do not overwrite existing files), -v: verbose
     alias l="ls -ahlF --color"
     alias ls='ls -ahlF --color'
+    alias mv="mv -i --"  # Movimentação segura para o uso diário; -i: interactive (ask before overwrite), --: end of options (permite mover arquivos começando com -)
+    alias mvi="mv -i --"  # Movimentação segura para o uso diário; -i: interactive (ask before overwrite), --: end of options (permite mover arquivos começando com -)
+    alias mvb="mv -iv --"  # Movimentação com confirmação e exibição; -i: interactive (ask before overwrite), -v: verbose, --: end of options
+    alias mvu="mv -uv --"  # Movimentação para atualização; -u: update (move only when source is newer than destination), -v: verbose, --: end of options
+    alias mvn="mv -nv --"  # Movimentação extremamente conservadora; -n: no-clobber (do not overwrite existing files), -v: verbose, --: end of options
+    alias mvbk="mv -iv --backup=numbered --"  # Movimentação com versionamento; -i: interactive (ask before overwrite), -v: verbose, --backup=numbered: keep numbered backups, --: end of options
     alias gitmergeandcleanup='./subs/submodules/shell_scripts/git_merge_and_cleanup.sh'
     alias preparerepo='./subs/submodules/shell_scripts/prepare_repo.sh'
     alias mkdir='mkdir -pv'
