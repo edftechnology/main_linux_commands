@@ -623,6 +623,12 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
     alias mvu="mv -uv --"  # Movimentação para atualização; -u: update (move only when source is newer than destination), -v: verbose, --: end of options
     alias mvn="mv -nv --"  # Movimentação extremamente conservadora; -n: no-clobber (do not overwrite existing files), -v: verbose, --: end of options
     alias mvbk="mv -iv --backup=numbered --"  # Movimentação com versionamento; -i: interactive (ask before overwrite), -v: verbose, --backup=numbered: keep numbered backups, --: end of options
+    alias rm="gio trash"  # Remoção segura para o uso diário; envia arquivos e diretórios para a lixeira
+    alias rmi="gio trash"  # Remoção segura para o uso diário; envia arquivos e diretórios para a lixeira
+    alias rmv="gio trash"  # Remoção segura com lixeira; gio trash não possui modo verbose
+    alias rmr="rm -rI --"  # Remoção recursiva definitiva segura; -r: recursive, -I: confirmação única
+    alias rmn="rm -rIv --one-file-system --"  # Remoção definitiva conservadora de árvores
+    alias rmrf="rm -rfI --"  # Remoção definitiva forçada com confirmação única
     alias gitmergeandcleanup='./subs/submodules/shell_scripts/git_merge_and_cleanup.sh'
     alias preparerepo='./subs/submodules/shell_scripts/prepare_repo.sh'
     alias mkdir='mkdir -pv'
