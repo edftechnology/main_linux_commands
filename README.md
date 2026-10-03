@@ -165,25 +165,25 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Descrição em Inglês | Descrição em Português | Expansão / origem |
-| :--: | :----------------: | ------------------------------------- | --------------------------------------------- | :---------------------- |
-| 1 | `dig -x [ip]` | IP address reverse lookup | Consulta reversa de endereço IP | Domain Information Groper |
-| 2 | `dig -x [host]` | Domain reverse lookup | Consulta reversa de domínio | Domain Information Groper |
-| 3 | `dig [domain]` | Show domain's DNS info | Mostrar informações de DNS do domínio | Domain Information Groper |
-| 4 | `get [file]` | Download a file from remote to local | Baixar um arquivo de remoto para local | — |
-| 5 | `host [domain]` | IP lookup for a domain | Consulta de IP para um domínio | — |
-| 6 | `curl -O [file_url]` | Download a file from url | Baixar um arquivo de uma URL | client URL |
-| 7 | `ifconfig` | Show all network interfaces | Mostrar todas as interfaces de rede | interface configuration |
-| 8 | `ip addr show` | Show IP addresses | Mostrar endereços IP | Internet Protocol |
-| 9 | `ip address add [ip]` | Assign IP address to interface | Atribuir endereço IP à interface | Internet Protocol |
-| 10 | `netstat -pntlu` | Show active listening ports | Mostrar portas ativas de escuta | network statistics |
-| 11 | `nslookup [domain]` | Network information | Informação de rede | name server lookup |
-| 12 | `ping [hostname]` | Check network status | Verificar status da rede | Packet Internet Groper |
-| 13 | `put [file]` | Upload file from local to remote computer | Enviar arquivo de local para remoto | — |
-| 14 | `quit` | Logout | Sair | — |
-| 15 | `traceroute [host]` | Trace route to host | Rastrear rota até o host | trace route |
-| 16 | `wget [file_url]` | Download a file from url | Baixar um arquivo de uma URL | World Wide Web get |
-| 17 | `whois [domain]` | Show domain information | Mostrar informações do domínio | who is |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
+| :--: | :----------------: | :---------------------- | ------------------------------------- | --------------------------------------------- |
+| 1 | `dig -x [ip]` | Domain Information Groper | IP address reverse lookup | Consulta reversa de endereço IP |
+| 2 | `dig -x [host]` | Domain Information Groper | Domain reverse lookup | Consulta reversa de domínio |
+| 3 | `dig [domain]` | Domain Information Groper | Show domain's DNS info | Mostrar informações de DNS do domínio |
+| 4 | `get [file]` | — | Download a file from remote to local | Baixar um arquivo de remoto para local |
+| 5 | `host [domain]` | — | IP lookup for a domain | Consulta de IP para um domínio |
+| 6 | `curl -O [file_url]` | client URL | Download a file from url | Baixar um arquivo de uma URL |
+| 7 | `ifconfig` | interface configuration | Show all network interfaces | Mostrar todas as interfaces de rede |
+| 8 | `ip addr show` | Internet Protocol | Show IP addresses | Mostrar endereços IP |
+| 9 | `ip address add [ip]` | Internet Protocol | Assign IP address to interface | Atribuir endereço IP à interface |
+| 10 | `netstat -pntlu` | network statistics | Show active listening ports | Mostrar portas ativas de escuta |
+| 11 | `nslookup [domain]` | name server lookup | Network information | Informação de rede |
+| 12 | `ping [hostname]` | Packet Internet Groper | Check network status | Verificar status da rede |
+| 13 | `put [file]` | — | Upload file from local to remote computer | Enviar arquivo de local para remoto |
+| 14 | `quit` | — | Logout | Sair |
+| 15 | `traceroute [host]` | trace route | Trace route to host | Rastrear rota até o host |
+| 16 | `wget [file_url]` | World Wide Web get | Download a file from url | Baixar um arquivo de uma URL |
+| 17 | `whois [domain]` | who is | Show domain information | Mostrar informações do domínio |
 
 </div>
 
@@ -192,21 +192,21 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Descrição em Inglês | Descrição em Português | Expansão / origem |
-| :--: | :-----------------: | -------------------------------- | ---------------------------------------- | :---------------------- |
-| 1 | `adduser [user]` | Add a new user | Adicionar um novo usuário | — |
-| 2 | `useradd [user]` | Add a new user | Adicionar um novo usuário | user add |
-| 3 | `chgrp [group] [directory]` | Change directory group | Mudar grupo de diretório | change group |
-| 4 | `groupadd [group]` | Add a new group | Adicionar um novo grupo | — |
-| 5 | `id` | Show active user details | Mostrar detalhes do usuário ativo | — |
-| 6 | `last` | Show last system logins | Mostrar últimas entradas no sistema | — |
-| 7 | `passwd [username]` | Change the password for the user | Mudar a senha do usuário | password |
-| 8 | `su [user]` | Switch user | Trocar de usuário | substitute user |
-| 9 | `userdel [user]` | Delete a user | Excluir um usuário | user delete |
-| 10 | `usermod` | Modify user information | Modificar informações de um usuário | user modify |
-| 11 | `usermod -aG [group] [user]` | Add user to group | Adicionar usuário a um grupo | user modify |
-| 12 | `w` | Show logged users and activity | Mostrar usuários logados e atividade | — |
-| 13 | `who` | Show who is logged in | Mostrar quem está logado | — |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
+| :--: | :-----------------: | :---------------------- | -------------------------------- | ---------------------------------------- |
+| 1 | `adduser [user]` | — | Add a new user | Adicionar um novo usuário |
+| 2 | `useradd [user]` | user add | Add a new user | Adicionar um novo usuário |
+| 3 | `chgrp [group] [directory]` | change group | Change directory group | Mudar grupo de diretório |
+| 4 | `groupadd [group]` | — | Add a new group | Adicionar um novo grupo |
+| 5 | `id` | — | Show active user details | Mostrar detalhes do usuário ativo |
+| 6 | `last` | — | Show last system logins | Mostrar últimas entradas no sistema |
+| 7 | `passwd [username]` | password | Change the password for the user | Mudar a senha do usuário |
+| 8 | `su [user]` | substitute user | Switch user | Trocar de usuário |
+| 9 | `userdel [user]` | user delete | Delete a user | Excluir um usuário |
+| 10 | `usermod` | user modify | Modify user information | Modificar informações de um usuário |
+| 11 | `usermod -aG [group] [user]` | user modify | Add user to group | Adicionar usuário a um grupo |
+| 12 | `w` | — | Show logged users and activity | Mostrar usuários logados e atividade |
+| 13 | `who` | — | Show who is logged in | Mostrar quem está logado |
 
 </div>
 
@@ -215,12 +215,12 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Descrição em Inglês | Descrição em Português | Expansão / origem |
-| :--: | :-----------------: | --------------------------------- | --------------------------------------- | :---------------------- |
-| 1 | `cd` | Move up one level | Subir um nível | — |
-| 2 | `cd` | Change directory to $HOME | Mudar diretório para o $HOME | — |
-| 3 | `cd [location]` | Change to specified directory | Mudar para o diretório especificado | — |
-| 4 | `pwd` | Print working directory | Mostrar o diretório atual | print working directory |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
+| :--: | :-----------------: | :---------------------- | --------------------------------- | --------------------------------------- |
+| 1 | `cd` | — | Move up one level | Subir um nível |
+| 2 | `cd` | — | Change directory to $HOME | Mudar diretório para o $HOME |
+| 3 | `cd [location]` | — | Change to specified directory | Mudar para o diretório especificado |
+| 4 | `pwd` | print working directory | Print working directory | Mostrar o diretório atual |
 
 </div>
 
@@ -229,19 +229,19 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Descrição em Inglês | Descrição em Português | Expansão / origem |
-| :--: | :------------------: | ----------------------------------- | ----------------------------------------- | :---------------------- |
-| 1 | `cat /proc/cpuinfo` | Show CPU information | Mostrar informações da CPU | concatenate |
-| 2 | `dmesg` | Show bootup messages | Mostrar mensagens de inicialização | — |
-| 3 | `dmidecode` | Show BIOS hardware info | Mostrar informações de hardware da BIOS | — |
-| 4 | `free -h` | Show free and used memory | Mostrar memória livre e usada | — |
-| 5 | `lsblk` | Block devices info | Informações de dispositivos de bloco | list block devices |
-| 6 | `lshw` | Hardware configuration info | Informações de configuração de hardware | — |
-| 7 | `lsusb -tv` | Tree-diagram of USB devices | Diagrama em árvore dos dispositivos USB | — |
-| 8 | `neofetch` | Display OS & hardware info | Mostrar informações do SO e hardware | — |
-| 9 | `hdparm -i /dev/[disk]` | Show disk data info | Mostrar informações de dados do disco | — |
-| 10 | `hdparm -Tt /dev/[disk]` | Disk read speed test | Teste de velocidade de leitura do disco | — |
-| 11 | `badblocks -s /dev/[disk]` | Unreadable blocks test | Teste de blocos ilegíveis | — |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
+| :--: | :------------------: | :---------------------- | ----------------------------------- | ----------------------------------------- |
+| 1 | `cat /proc/cpuinfo` | concatenate | Show CPU information | Mostrar informações da CPU |
+| 2 | `dmesg` | — | Show bootup messages | Mostrar mensagens de inicialização |
+| 3 | `dmidecode` | — | Show BIOS hardware info | Mostrar informações de hardware da BIOS |
+| 4 | `free -h` | — | Show free and used memory | Mostrar memória livre e usada |
+| 5 | `lsblk` | list block devices | Block devices info | Informações de dispositivos de bloco |
+| 6 | `lshw` | — | Hardware configuration info | Informações de configuração de hardware |
+| 7 | `lsusb -tv` | — | Tree-diagram of USB devices | Diagrama em árvore dos dispositivos USB |
+| 8 | `neofetch` | — | Display OS & hardware info | Mostrar informações do SO e hardware |
+| 9 | `hdparm -i /dev/[disk]` | — | Show disk data info | Mostrar informações de dados do disco |
+| 10 | `hdparm -Tt /dev/[disk]` | — | Disk read speed test | Teste de velocidade de leitura do disco |
+| 11 | `badblocks -s /dev/[disk]` | — | Unreadable blocks test | Teste de blocos ilegíveis |
 
 </div>
 
@@ -250,13 +250,13 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Descrição em Inglês | Descrição em Português | Expansão / origem |
-| :--: | :-----------------------: | ------------------------------------- | ----------------------------------------- | :---------------------- |
-| 1 | `gzip [file]` | Create a gz compressed file | Criar um arquivo comprimido gz | GNU zip |
-| 2 | `tar xf [file.tar]` | Extract archived file | Extrair arquivo arquivado | tape archive |
-| 3 | `zip`/`unzip` | Package & compress files | Empacotar e comprimir arquivos | — |
-| 4 | `tar cf [file.tar] [file]` | Create a tar file from a file | Criar um arquivo tar a partir de um arquivo | tape archive |
-| 5 | `tar czf [file.tar.gz]` | Create a gzip tar file | Criar um arquivo tar gzip | tape archive |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
+| :--: | :-----------------------: | :---------------------- | ------------------------------------- | ----------------------------------------- |
+| 1 | `gzip [file]` | GNU zip | Create a gz compressed file | Criar um arquivo comprimido gz |
+| 2 | `tar xf [file.tar]` | tape archive | Extract archived file | Extrair arquivo arquivado |
+| 3 | `zip`/`unzip` | — | Package & compress files | Empacotar e comprimir arquivos |
+| 4 | `tar cf [file.tar] [file]` | tape archive | Create a tar file from a file | Criar um arquivo tar a partir de um arquivo |
+| 5 | `tar czf [file.tar.gz]` | tape archive | Create a gzip tar file | Criar um arquivo tar gzip |
 
 </div>
 
@@ -265,16 +265,16 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Descrição em Inglês | Descrição em Português | Expansão / origem |
-| :--: | :-----------------------------: | ---------------------------------------- | ---------------------------------------------------- | :---------------------- |
-| 1 | `apt-get` | Search for and install software packages | Pesquisar e instalar pacotes de software | Advanced Package Tool (get) |
-| 2 | `apt install [package]` | Install a package with APT | Instalar um pacote com APT | — |
-| 3 | `dnf install [package.rpm]` | Install a package with DNF | Instalar um pacote com DNF | Dandified YUM |
-| 4 | `rpm -e [package.rpm]` | Remove an rpm package | Remover um pacote rpm | RPM Package Manager (sigla histórica) |
-| 5 | `rpm -ivh [package.rpm]` | Install a local rpm package | Instalar um pacote rpm local | RPM Package Manager (sigla histórica) |
-| 6 | `yum info [package]` | Package info & summary | Informação e resumo do pacote | Yellowdog Updater, Modified |
-| 7 | `yum install [package]` | Install a package with YUM | Instalar um pacote com YUM | Yellowdog Updater, Modified |
-| 8 | `yum search [package]` | Find a package by a keyword | Encontrar um pacote por uma palavra-chave | Yellowdog Updater, Modified |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
+| :--: | :-----------------------------: | :---------------------- | ---------------------------------------- | ---------------------------------------------------- |
+| 1 | `apt-get` | Advanced Package Tool (get) | Search for and install software packages | Pesquisar e instalar pacotes de software |
+| 2 | `apt install [package]` | — | Install a package with APT | Instalar um pacote com APT |
+| 3 | `dnf install [package.rpm]` | Dandified YUM | Install a package with DNF | Instalar um pacote com DNF |
+| 4 | `rpm -e [package.rpm]` | RPM Package Manager (sigla histórica) | Remove an rpm package | Remover um pacote rpm |
+| 5 | `rpm -ivh [package.rpm]` | RPM Package Manager (sigla histórica) | Install a local rpm package | Instalar um pacote rpm local |
+| 6 | `yum info [package]` | Yellowdog Updater, Modified | Package info & summary | Informação e resumo do pacote |
+| 7 | `yum install [package]` | Yellowdog Updater, Modified | Install a package with YUM | Instalar um pacote com YUM |
+| 8 | `yum search [package]` | Yellowdog Updater, Modified | Find a package by a keyword | Encontrar um pacote por uma palavra-chave |
 
 </div>
 
@@ -283,23 +283,23 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Descrição em Inglês | Descrição em Português | Expansão / origem |
-| :--: | :------------------------: | --------------------------------------- | ----------------------------------------------------- | :---------------------- |
-| 1 | `cat` | Show current day and month | Mostrar dia e mês atuais | concatenate |
-| 2 | `cal` | Show calendar | Mostrar calendário | calendar |
-| 3 | `date` | Show current time and date | Mostrar hora e data atuais | — |
-| 4 | `finger [username]` | Show user information | Mostrar informações do usuário | — |
-| 5 | `hostname` | Show system hostname | Mostrar nome do host do sistema | — |
-| 6 | `hostname -I` | Show System IP address | Mostrar endereço IP do sistema | — |
-| 7 | `last reboot` | Show reboot history | Mostrar histórico de reinicialização | — |
-| 8 | `modprobe [module-name]` | Add a new kernel module | Adicionar um novo módulo do kernel | module probe |
-| 9 | `shutdown [h:mm]` | Schedule a system shut down | Agendar desligamento do sistema | — |
-| 10 | `shutdown now` | Shut down immediately | Desligar imediatamente | — |
-| 11 | `ulimit [tags][limit]` | Manage the system clock | Gerenciar o relógio do sistema | — |
-| 12 | `uname -a` | Show kernel release info | Mostrar informações de lançamento do kernel | — |
-| 13 | `uname -r` | Show system information | Mostrar informações do sistema | — |
-| 14 | `uptime` | Show uptime length/avg load | Mostrar tempo de atividade/carga média | up time |
-| 15 | `whoami` | Show the current user | Mostrar o usuário atual | who am I |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
+| :--: | :------------------------: | :---------------------- | --------------------------------------- | ----------------------------------------------------- |
+| 1 | `cat` | concatenate | Show current day and month | Mostrar dia e mês atuais |
+| 2 | `cal` | calendar | Show calendar | Mostrar calendário |
+| 3 | `date` | — | Show current time and date | Mostrar hora e data atuais |
+| 4 | `finger [username]` | — | Show user information | Mostrar informações do usuário |
+| 5 | `hostname` | — | Show system hostname | Mostrar nome do host do sistema |
+| 6 | `hostname -I` | — | Show System IP address | Mostrar endereço IP do sistema |
+| 7 | `last reboot` | — | Show reboot history | Mostrar histórico de reinicialização |
+| 8 | `modprobe [module-name]` | module probe | Add a new kernel module | Adicionar um novo módulo do kernel |
+| 9 | `shutdown [h:mm]` | — | Schedule a system shut down | Agendar desligamento do sistema |
+| 10 | `shutdown now` | — | Shut down immediately | Desligar imediatamente |
+| 11 | `ulimit [tags][limit]` | — | Manage the system clock | Gerenciar o relógio do sistema |
+| 12 | `uname -a` | — | Show kernel release info | Mostrar informações de lançamento do kernel |
+| 13 | `uname -r` | — | Show system information | Mostrar informações do sistema |
+| 14 | `uptime` | up time | Show uptime length/avg load | Mostrar tempo de atividade/carga média |
+| 15 | `whoami` | who am I | Show the current user | Mostrar o usuário atual |
 
 </div>
 
@@ -308,13 +308,13 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Descrição em Inglês | Descrição em Português | Expansão / origem |
-| :--: | :------------------: | ------------------------------------------------- | ---------------------------------------------------------- | :---------------------- |
-| 1 | `chmod 755 [file]` | Full permission to owner; read permissions for others | Permissão total para o proprietário; permissão de leitura para outros | change mode |
-| 2 | `chmod 766 [file]` | Full permission to owner; read and write for others | Permissão total para o proprietário; leitura e escrita para outros | change mode |
-| 3 | `chmod 777 [file]` | Full read, write, execute permissions to everyone | Permissão total de leitura, escrita e execução para todos | change mode |
-| 4 | `chown [user][file]` | Change file ownership | Mudar a propriedade do arquivo | change owner |
-| 5 | `chown [user][group][file]` | Change file owner and group | Mudar o proprietário do arquivo e grupo | change owner |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
+| :--: | :------------------: | :---------------------- | ------------------------------------------------- | ---------------------------------------------------------- |
+| 1 | `chmod 755 [file]` | change mode | Full permission to owner; read permissions for others | Permissão total para o proprietário; permissão de leitura para outros |
+| 2 | `chmod 766 [file]` | change mode | Full permission to owner; read and write for others | Permissão total para o proprietário; leitura e escrita para outros |
+| 3 | `chmod 777 [file]` | change mode | Full read, write, execute permissions to everyone | Permissão total de leitura, escrita e execução para todos |
+| 4 | `chown [user][file]` | change owner | Change file ownership | Mudar a propriedade do arquivo |
+| 5 | `chown [user][group][file]` | change owner | Change file owner and group | Mudar o proprietário do arquivo e grupo |
 
 </div>
 
@@ -323,12 +323,12 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Descrição em Inglês | Descrição em Português | Expansão / origem |
-| :--: | :-------------------: | ------------------------------------------- | ------------------------------------------------------ | :---------------------- |
-| 1 | `ssh [user]@[host]` | Connect to host as user | Conectar ao host como usuário | Secure Shell |
-| 2 | `ssh [host]` | Connect to host via port 22 | Conectar ao host via porta 22 | Secure Shell |
-| 3 | `telnet [host]` | Connect to Telnet via port 23 | Conectar ao Telnet via porta 23 | — |
-| 4 | `ssh -p [port][user]@[host]` | Use a non-default port | Usar uma porta não padrão | Secure Shell |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
+| :--: | :-------------------: | :---------------------- | ------------------------------------------- | ------------------------------------------------------ |
+| 1 | `ssh [user]@[host]` | Secure Shell | Connect to host as user | Conectar ao host como usuário |
+| 2 | `ssh [host]` | Secure Shell | Connect to host via port 22 | Conectar ao host via porta 22 |
+| 3 | `telnet [host]` | — | Connect to Telnet via port 23 | Conectar ao Telnet via porta 23 |
+| 4 | `ssh -p [port][user]@[host]` | Secure Shell | Use a non-default port | Usar uma porta não padrão |
 
 </div>
 
@@ -337,13 +337,13 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Descrição em Inglês | Descrição em Português | Expansão / origem |
-| :--: | :---------------------: | ------------------------------------------- | -------------------------------------------------------- | :---------------------- |
-| 1 | `declare [variable]=[value]` | Declare a Bash variable | Declarar uma variável Bash | — |
-| 2 | `echo $[variable]` | Display value of the variable | Exibir valor da variável | — |
-| 3 | `export [variable]` | Export a Bash variable | Exportar uma variável Bash | — |
-| 4 | `let [variable]=[value]` | Assign integer value to var | Atribuir valor inteiro à variável | — |
-| 5 | `set` | List variables and functions | Listar variáveis e funções | — |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
+| :--: | :---------------------: | :---------------------- | ------------------------------------------- | -------------------------------------------------------- |
+| 1 | `declare [variable]=[value]` | — | Declare a Bash variable | Declarar uma variável Bash |
+| 2 | `echo $[variable]` | — | Display value of the variable | Exibir valor da variável |
+| 3 | `export [variable]` | — | Export a Bash variable | Exportar uma variável Bash |
+| 4 | `let [variable]=[value]` | — | Assign integer value to var | Atribuir valor inteiro à variável |
+| 5 | `set` | — | List variables and functions | Listar variáveis e funções |
 
 </div>
 
@@ -352,10 +352,10 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Descrição em Inglês | Descrição em Português | Expansão / origem |
-| :--: | :-----------------: | ------------------------------------ | -------------------------------------------------------- | :---------------------- |
-| 1 | `scp [file.txt][server:/tmp]` | Securely transfer a file | Transferir um arquivo de forma segura | secure copy |
-| 2 | `rsync -a /location/ /backup/` | Sync the contents of a location with the backup directory | Sincronizar os conteúdos de uma localização com o diretório de backup | remote sync |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
+| :--: | :-----------------: | :---------------------- | ------------------------------------ | -------------------------------------------------------- |
+| 1 | `scp [file.txt][server:/tmp]` | secure copy | Securely transfer a file | Transferir um arquivo de forma segura |
+| 2 | `rsync -a /location/ /backup/` | remote sync | Sync the contents of a location with the backup directory | Sincronizar os conteúdos de uma localização com o diretório de backup |
 
 </div>
 
@@ -364,14 +364,14 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Descrição em Inglês | Descrição em Português | Expansão / origem |
-| :--: | :----------------: | -------------------------------------------- | ---------------------------------------------------------- | :---------------------- |
-| 1 | `fdisk -l` | Disk partition types and sizes | Tipos e tamanhos de partições de disco | fixed disk |
-| 2 | `df -h` | Show free space on system | Mostrar espaço livre no sistema | disk free |
-| 3 | `du -ah` | Show disk usage for all files | Mostrar uso do disco para todos os arquivos | disk usage |
-| 4 | `du -sh` | Show disk usage for current directory | Mostrar uso do disco para o diretório atual | disk usage |
-| 5 | `findmnt` | Show target mount point | Mostrar ponto de montagem alvo | — |
-| 6 | `mount [device][mount point]` | Mount a device | Montar um dispositivo | mount |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
+| :--: | :----------------: | :---------------------- | -------------------------------------------- | ---------------------------------------------------------- |
+| 1 | `fdisk -l` | fixed disk | Disk partition types and sizes | Tipos e tamanhos de partições de disco |
+| 2 | `df -h` | disk free | Show free space on system | Mostrar espaço livre no sistema |
+| 3 | `du -ah` | disk usage | Show disk usage for all files | Mostrar uso do disco para todos os arquivos |
+| 4 | `du -sh` | disk usage | Show disk usage for current directory | Mostrar uso do disco para o diretório atual |
+| 5 | `findmnt` | — | Show target mount point | Mostrar ponto de montagem alvo |
+| 6 | `mount [device][mount point]` | mount | Mount a device | Montar um dispositivo |
 
 </div>
 
@@ -380,24 +380,24 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Descrição em Inglês | Descrição em Português | Expansão / origem |
-| :--: | :------------------: | ----------------------------------------------- | ---------------------------------------------------------- | :---------------------- |
-| 1 | `bg` | List background processes | Listar processos em segundo plano | — |
-| 2 | `clear` | Clear terminal screen | Limpar a tela do terminal | clear |
-| 3 | `fg [job]` | Bring job to foreground | Trazer trabalho para o primeiro plano | foreground |
-| 4 | `kill [process_id]` | Kill the process by ID | Matar o processo pelo ID | — |
-| 5 | `pkill [process_name]` | Kill the process by name | Matar o processo pelo nome | process kill |
-| 6 | `killall [process_name]` | Kill all processes by name | Matar todos os processos pelo nome | — |
-| 7 | `lsof` | List files opened by processes | Listar arquivos abertos por processos | list open files |
-| 8 | `ps` | Show active process snapshot | Mostrar instantâneo de processos ativos | process status |
-| 9 | `pstree` | Show processes as a tree | Mostrar processos em forma de árvore | process tree |
-| 10 | `top` | Show all running processes | Mostrar todos os processos em execução | table of processes |
-| 11 | `htop` | Interactive process viewer | Visualizador interativo de processos | Hisham's top |
-| 12 | `wait` | Pause terminal until process completes | Pausar terminal até que o processo seja completado | — |
-| 13 | `nice` | Start a process with a given priority | Iniciar um processo com uma prioridade dada | nice (prioridade de processo) |
-| 14 | `fg` | Most recent suspended job to foreground | Trabalho suspenso mais recente para o primeiro plano | foreground |
-| 15 | `ps PID` | Give the status of a particular process | Dar o status de um processo específico | process status |
-| 16 | `renice` | Change priority of a running process | Mudar a prioridade de um processo em execução | re-nice (alterar prioridade) |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
+| :--: | :------------------: | :---------------------- | ----------------------------------------------- | ---------------------------------------------------------- |
+| 1 | `bg` | — | List background processes | Listar processos em segundo plano |
+| 2 | `clear` | clear | Clear terminal screen | Limpar a tela do terminal |
+| 3 | `fg [job]` | foreground | Bring job to foreground | Trazer trabalho para o primeiro plano |
+| 4 | `kill [process_id]` | — | Kill the process by ID | Matar o processo pelo ID |
+| 5 | `pkill [process_name]` | process kill | Kill the process by name | Matar o processo pelo nome |
+| 6 | `killall [process_name]` | — | Kill all processes by name | Matar todos os processos pelo nome |
+| 7 | `lsof` | list open files | List files opened by processes | Listar arquivos abertos por processos |
+| 8 | `ps` | process status | Show active process snapshot | Mostrar instantâneo de processos ativos |
+| 9 | `pstree` | process tree | Show processes as a tree | Mostrar processos em forma de árvore |
+| 10 | `top` | table of processes | Show all running processes | Mostrar todos os processos em execução |
+| 11 | `htop` | Hisham's top | Interactive process viewer | Visualizador interativo de processos |
+| 12 | `wait` | — | Pause terminal until process completes | Pausar terminal até que o processo seja completado |
+| 13 | `nice` | nice (prioridade de processo) | Start a process with a given priority | Iniciar um processo com uma prioridade dada |
+| 14 | `fg` | foreground | Most recent suspended job to foreground | Trabalho suspenso mais recente para o primeiro plano |
+| 15 | `ps PID` | process status | Give the status of a particular process | Dar o status de um processo específico |
+| 16 | `renice` | re-nice (alterar prioridade) | Change priority of a running process | Mudar a prioridade de um processo em execução |
 
 </div>
 
@@ -406,31 +406,31 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Descrição em Inglês | Descrição em Português | Expansão / origem |
-| :--: | :------------------: | ---------------------------------------------- | ---------------------------------------------------------- | :---------------------- |
-| 1 | `alias [alias]='[command]'` | Create command alias | Criar um alias para comando | — |
-| 2 | `at [hh:mm]` | Schedule a job | Agendar um trabalho | — |
-| 3 | `cp [source] [dest]` | Copy files or directories | Copiar arquivos ou diretórios | copy |
-| 4 | `diff [file1] [file2]` | Compare files | Comparar arquivos | difference |
-| 5 | `history` | Print command history | Imprimir histórico de comandos | — |
-| 6 | `jobs` | Display current jobs & status | Mostrar trabalhos atuais e seu status | — |
-| 7 | `ln [target] [link_name]` | Create links | Criar links | link |
-| 8 | `locate [pattern]` | Locate files | Localizar arquivos | — |
-| 9 | `man [command]` | Display command manual | Exibir manual de comando | — |
-| 10 | `mv [source] [dest]` | Move or rename files | Mover ou renomear arquivos | move |
-| 11 | `nano [file]` | Open a text editor | Abrir um editor de texto | — |
-| 12 | `rm [file]` | Remove files | Remover arquivos | remove |
-| 13 | `rmdir [dir]` | Remove empty directories | Remover diretórios vazios | — |
-| 14 | `sed 's/old/new/' [file]` | Search and replace | Buscar e substituir | stream editor |
-| 15 | `sleep [interval] && [command]` | Postpone command execution | Adiar execução de comando | — |
-| 16 | `tail [file]` | Show last lines of a file | Mostrar as últimas linhas de um arquivo | — |
-| 17 | `tee [file]` | Write output to file and terminal | Enviar saída para arquivo e terminal | T (formato da letra) |
-| 18 | `touch [file]` | Create empty file | Criar arquivo vazio | — |
-| 19 | `unalias` | Remove an alias | Remover um alias | — |
-| 20 | `vi [file]` | Open a text editor | Abrir um editor de texto | — |
-| 21 | `watch -n [interval] [command]` | Set interval to run a command | Definir intervalo para executar um comando | — |
-| 22 | `awk -f [program.awk] [file]` | Pattern scanning and processing | Buscar e manipular padrões | Aho, Weinberger e Kernighan |
-| 23 | `jed [file]` | Open a text editor | Abrir um editor de texto | — |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
+| :--: | :------------------: | :---------------------- | ---------------------------------------------- | ---------------------------------------------------------- |
+| 1 | `alias [alias]='[command]'` | — | Create command alias | Criar um alias para comando |
+| 2 | `at [hh:mm]` | — | Schedule a job | Agendar um trabalho |
+| 3 | `cp [source] [dest]` | copy | Copy files or directories | Copiar arquivos ou diretórios |
+| 4 | `diff [file1] [file2]` | difference | Compare files | Comparar arquivos |
+| 5 | `history` | — | Print command history | Imprimir histórico de comandos |
+| 6 | `jobs` | — | Display current jobs & status | Mostrar trabalhos atuais e seu status |
+| 7 | `ln [target] [link_name]` | link | Create links | Criar links |
+| 8 | `locate [pattern]` | — | Locate files | Localizar arquivos |
+| 9 | `man [command]` | — | Display command manual | Exibir manual de comando |
+| 10 | `mv [source] [dest]` | move | Move or rename files | Mover ou renomear arquivos |
+| 11 | `nano [file]` | — | Open a text editor | Abrir um editor de texto |
+| 12 | `rm [file]` | remove | Remove files | Remover arquivos |
+| 13 | `rmdir [dir]` | — | Remove empty directories | Remover diretórios vazios |
+| 14 | `sed 's/old/new/' [file]` | stream editor | Search and replace | Buscar e substituir |
+| 15 | `sleep [interval] && [command]` | — | Postpone command execution | Adiar execução de comando |
+| 16 | `tail [file]` | — | Show last lines of a file | Mostrar as últimas linhas de um arquivo |
+| 17 | `tee [file]` | T (formato da letra) | Write output to file and terminal | Enviar saída para arquivo e terminal |
+| 18 | `touch [file]` | — | Create empty file | Criar arquivo vazio |
+| 19 | `unalias` | — | Remove an alias | Remover um alias |
+| 20 | `vi [file]` | — | Open a text editor | Abrir um editor de texto |
+| 21 | `watch -n [interval] [command]` | — | Set interval to run a command | Definir intervalo para executar um comando |
+| 22 | `awk -f [program.awk] [file]` | Aho, Weinberger e Kernighan | Pattern scanning and processing | Buscar e manipular padrões |
+| 23 | `jed [file]` | — | Open a text editor | Abrir um editor de texto |
 
 </div>
 
@@ -439,21 +439,21 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Atalho | Ação |
-| :--: | :----------------: | ---------------------------------------------- |
-| 1 | `!!` | Repeat the last command |
-| 2 | `exit` | Log out of the session |
-| 3 | `Ctrl + C` | Kill current process |
-| 4 | `Ctrl + G` | Exit command history |
-| 5 | `Ctrl + K` | Cut part of the line after the cursor |
-| 6 | `Ctrl + O` | Run the recalled command |
-| 7 | `Ctrl + R` | Recall last command |
-| 8 | `Ctrl + U` | Cut part of the line before the cursor |
-| 9 | `Ctrl + W` | Cut the word before the cursor |
-| 10 | `Ctrl + Y` | Paste from clipboard |
-| 11 | `Ctrl + Z` | Stop process (can be resumed) |
-| 12 | `Ctrl + Alt + F7` | Switch to the first graphical terminal |
-| 13 | `Ctrl + Alt + F10` | Switch to a virtual console |
+| # | Atalho | Expansão / origem | Descrição em Inglês | Descrição em Português |
+| :--: | :----------------: | :---------------------- | ---------------------------------------------- | ---------------------------------------------- |
+| 1 | `!!` | Re-executa o último comando no Bash/Zsh | Repeat the last command | Repetir o último comando |
+| 2 | `exit` | — | Log out of the session | Encerrar a sessão |
+| 3 | `Ctrl + C` | Control + C | Kill current process | Interromper o processo atual |
+| 4 | `Ctrl + G` | Control + G | Exit command history | Sair do histórico de comandos |
+| 5 | `Ctrl + K` | Control + K | Cut part of the line after the cursor | Recortar o texto após o cursor |
+| 6 | `Ctrl + O` | Control + O | Run the recalled command | Executar o comando recuperado |
+| 7 | `Ctrl + R` | Control + R | Recall last command | Pesquisar no histórico de comandos |
+| 8 | `Ctrl + U` | Control + U | Cut part of the line before the cursor | Recortar o texto antes do cursor |
+| 9 | `Ctrl + W` | Control + W | Cut the word before the cursor | Recortar a palavra anterior ao cursor |
+| 10 | `Ctrl + Y` | Control + Y | Paste from clipboard | Colar o texto recortado |
+| 11 | `Ctrl + Z` | Control + Z | Stop process (can be resumed) | Suspender o processo (pode ser retomado) |
+| 12 | `Ctrl + Alt + F7` | Control + Alt + F7 | Switch to the first graphical terminal | Alternar para o primeiro terminal gráfico |
+| 13 | `Ctrl + Alt + F10` | Control + Alt + F10 | Switch to a virtual console | Alternar para um console virtual |
 
 </div>
 
