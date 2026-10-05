@@ -839,10 +839,23 @@ Substitua `zshrc` por `bashrc` caso você use o `bash`.
 
 ## Referências
 
-[1] OPENAI. **Instalar o `principais comandos do linux` no `linux ubuntu` pelo `terminal emulator`.** Disponível em: <https://chatgpt.com/c/66e99b91-aa6c-8002-9401-ccd319b980e3> (texto adaptado). Acessado em: 17/09/2024 15:35.
+[1] OPENAI.
+**Instalar os `principais comandos do linux` no `linux ubuntu` pelo `terminal emulator`.**
+Disponível em: <https://chatgpt.com/c/66e99b91-aa6c-8002-9401-ccd319b980e3> (texto adaptado).
+ChatGPT.
+Acessado em: 17/09/2024 15:35.
 
-[2] OPENAI. **Vs code: editor popular.** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). Acessado em: 17/09/2024 15:35.
+[2] OPENAI.
+**Vs code: editor popular.**
+Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado).
+ChatGPT.
+Acessado em: 17/09/2024 15:35.
 
-[3] USER: ARIS S.. **Top 60 linux commands: what they are and how to use them effectively**. Disponível em: <https://www.hostinger.com/tutorials/linux-commands?utm_campaign=Generic-Tutorials-DSA-t2|NT:Se|Lang:EN|LO:BR&utm_medium=ppc&gad_source=1&gad_campaignid=20990084344&gbraid=0AAAAADMy-hYSlrOpsfeXBdAXnfXldpB1q&gclid=Cj0KCQiAtfXMBhDzARIsAJ0jp3AEsSUQb1rIe-QbnkGmvmQZE6_Z0EsQCsq1_QWC5ClqOkKkNxyOdvkaAiElEALw_wcB> (texto adaptado). Acessado em: 24/02/2026.
+[3] USER: ARIS S..
+**Top 60 linux commands: what they are and how to use them effectively**.
+Disponível em: <https://www.hostinger.com/tutorials/linux-commands?utm_campaign=Generic-Tutorials-DSA-t2|NT:Se|Lang:EN|LO:BR&utm_medium=ppc&gad_source=1&gad_campaignid=20990084344&gbraid=0AAAAADMy-hYSlrOpsfeXBdAXnfXldpB1q&gclid=Cj0KCQiAtfXMBhDzARIsAJ0jp3AEsSUQb1rIe-QbnkGmvmQZE6_Z0EsQCsq1_QWC5ClqOkKkNxyOdvkaAiElEALw_wcB> (texto adaptado).
+Acessado em: 24/02/2026.
 
-[4] ROADMAP.SH. **Linux terminal basics**. Disponível em: <https://roadmap.sh/ai/course/linux-terminal-basics>. Acessado em: 09/06/2026.
+[4] ROADMAP.SH.
+**Linux terminal basics**.
+Disponível em: <https://roadmap.sh/ai/course/linux-terminal-basics>. Acessado em: 09/06/2026.
