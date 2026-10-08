@@ -7,7 +7,6 @@ Módulo de configuração básica.
 from setuptools import setup
 
 def readme():
-
     """
     Função LEIA-ME.
     """
@@ -29,7 +28,7 @@ setup(name='proplib',
         'License :: OSI Approved :: MIT License',  # TODO: update!
         'Programming Language :: Python :: 3.8',
         'Topic :: Thermodynamics :: Rocket propulsion'],
-      url='https://gitlab.com/iae-apr/proplib',
+      url='http://gitserver.iae.cta.br/proplib/proplib',
       author='APR',
       author_email=' ',
       license=' ',

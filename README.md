@@ -443,17 +443,17 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | :--: | :----------------: | :---------------------- | ---------------------------------------------- | ---------------------------------------------- |
 | 1 | `!!` | Re-executa o último comando no Bash/Zsh | Repeat the last command | Repetir o último comando |
 | 2 | `exit` | — | Log out of the session | Encerrar a sessão |
-| 3 | `Ctrl + C` | Control + C | Kill current process | Interromper o processo atual |
-| 4 | `Ctrl + G` | Control + G | Exit command history | Sair do histórico de comandos |
-| 5 | `Ctrl + K` | Control + K | Cut part of the line after the cursor | Recortar o texto após o cursor |
-| 6 | `Ctrl + O` | Control + O | Run the recalled command | Executar o comando recuperado |
-| 7 | `Ctrl + R` | Control + R | Recall last command | Pesquisar no histórico de comandos |
-| 8 | `Ctrl + U` | Control + U | Cut part of the line before the cursor | Recortar o texto antes do cursor |
-| 9 | `Ctrl + W` | Control + W | Cut the word before the cursor | Recortar a palavra anterior ao cursor |
-| 10 | `Ctrl + Y` | Control + Y | Paste from clipboard | Colar o texto recortado |
-| 11 | `Ctrl + Z` | Control + Z | Stop process (can be resumed) | Suspender o processo (pode ser retomado) |
-| 12 | `Ctrl + Alt + F7` | Control + Alt + F7 | Switch to the first graphical terminal | Alternar para o primeiro terminal gráfico |
-| 13 | `Ctrl + Alt + F10` | Control + Alt + F10 | Switch to a virtual console | Alternar para um console virtual |
+| 3 | `Ctrl + C` | `Control + C` | Kill current process | Interromper o processo atual |
+| 4 | `Ctrl + G` | `Control + G` | Exit command history | Sair do histórico de comandos |
+| 5 | `Ctrl + K` | `Control + K` | Cut part of the line after the cursor | Recortar o texto após o cursor |
+| 6 | `Ctrl + O` | `Control + O` | Run the recalled command | Executar o comando recuperado |
+| 7 | `Ctrl + R` | `Control + R` | Recall last command | Pesquisar no histórico de comandos |
+| 8 | `Ctrl + U` | `Control + U` | Cut part of the line before the cursor | Recortar o texto antes do cursor |
+| 9 | `Ctrl + W` | `Control + W` | Cut the word before the cursor | Recortar a palavra anterior ao cursor |
+| 10 | `Ctrl + Y` | `Control + Y` | Paste from clipboard | Colar o texto recortado |
+| 11 | `Ctrl + Z` | `Control + Z` | Stop process (can be resumed) | Suspender o processo (pode ser retomado) |
+| 12 | `Ctrl + Alt + F7` | `Control + Alt + F7` | Switch to the first graphical terminal | Alternar para o primeiro terminal gráfico |
+| 13 | `Ctrl + Alt + F10` | `Control + Alt + F10` | Switch to a virtual console | Alternar para um console virtual |
 
 </div>
 
@@ -840,7 +840,7 @@ Substitua `zshrc` por `bashrc` caso você use o `bash`.
 ## Referências
 
 [1] OPENAI.
-**Instalar os `principais comandos do linux` no `linux ubuntu` pelo `terminal emulator`.**
+**Instalar o `main linux commands` no `linux ubuntu` pelo `terminal emulator`.**
 Disponível em: <https://chatgpt.com/c/66e99b91-aa6c-8002-9401-ccd319b980e3> (texto adaptado).
 ChatGPT.
 Acessado em: 17/09/2024 15:35.
