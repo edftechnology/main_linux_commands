@@ -138,25 +138,25 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Diretório | Descrição | Exemplos |
-|:--:|:------------:|------------|------------|
-| 1 | `/` | Diretório raiz (*root*), o topo da hierarquia do sistema de arquivos. | Todos os caminhos absolutos começam aqui. |
-| 2 | `/bin` | Binários essenciais para os usuários (comandos). | `ls`, `cp`, `mv`, `rm` |
-| 3 | `/boot` | Arquivos de inicialização (*boot loader*), incluindo kernel, initrd e configurações do carregador de boot. | Imagem do kernel, configuração do GRUB |
-| 4 | `/dev` | Arquivos de dispositivos (*device files*), representando dispositivos de hardware. | `/dev/sda`, `/dev/tty` |
-| 5 | `/etc` | Arquivos de configuração globais do sistema. | `/etc/network/interfaces`, `/etc/passwd`, `/etc/ssh/sshd_config` |
-| 6 | `/home` | Diretórios pessoais dos usuários. | `/home/joao`, `/home/maria` |
-| 7 | `/lib` | Bibliotecas compartilhadas essenciais do sistema. | `libc.so` |
-| 8 | `/media` | Ponto de montagem para mídias removíveis (pendrives, CDs, DVDs etc.). | `/media/cdrom`, `/media/usb` |
-| 9 | `/mnt` | Ponto de montagem temporário. | Montagem de um compartilhamento de rede em `/mnt` |
-| 10 | `/opt` | Software opcional de terceiros. | Instalação de uma suíte de software em `/opt` |
-| 11 | `/proc` | Informações sobre processos e o kernel (sistema de arquivos virtual). | `/proc/cpuinfo`, `/proc/[pid]` |
-| 12 | `/root` | Diretório pessoal do usuário administrador (*root*). | `/root/.bashrc` |
-| 13 | `/sbin` | Binários de administração do sistema (comandos administrativos). | `fdisk`, `shutdown` |
-| 14 | `/srv` | Dados utilizados por serviços do sistema, como servidores web e FTP. | `/srv/www` |
-| 15 | `/tmp` | Arquivos temporários (geralmente removidos após reinicialização). | Arquivos temporários criados por aplicações |
-| 16 | `/usr` | Programas, bibliotecas e utilitários de uso geral. | `/usr/bin/gcc`, `/usr/share/doc` |
-| 17 | `/var` | Dados variáveis do sistema, como logs, filas e arquivos temporários persistentes. | `/var/log`, `/var/spool/mail` |
+| # | Diretório | Descrição | Exemplos | Mais informações |
+| :--: | :--- | :--- | :--- | :---: |
+| 1 | `/` | Diretório raiz (*root*), o topo da hierarquia do sistema de arquivos. | Todos os caminhos absolutos começam aqui. | [Clique aqui para mais informações](docs/command_reference/essential_directories/README.md) |
+| 2 | `/bin` | Binários essenciais para os usuários (comandos). | `ls`, `cp`, `mv`, `rm` | [Clique aqui para mais informações](docs/command_reference/essential_directories/README.md) |
+| 3 | `/boot` | Arquivos de inicialização (*boot loader*), incluindo kernel, initrd e configurações do carregador de boot. | Imagem do kernel, configuração do GRUB | [Clique aqui para mais informações](docs/command_reference/essential_directories/README.md) |
+| 4 | `/dev` | Arquivos de dispositivos (*device files*), representando dispositivos de hardware. | `/dev/sda`, `/dev/tty` | [Clique aqui para mais informações](docs/command_reference/essential_directories/README.md) |
+| 5 | `/etc` | Arquivos de configuração globais do sistema. | `/etc/network/interfaces`, `/etc/passwd`, `/etc/ssh/sshd_config` | [Clique aqui para mais informações](docs/command_reference/essential_directories/README.md) |
+| 6 | `/home` | Diretórios pessoais dos usuários. | `/home/joao`, `/home/maria` | [Clique aqui para mais informações](docs/command_reference/essential_directories/README.md) |
+| 7 | `/lib` | Bibliotecas compartilhadas essenciais do sistema. | `libc.so` | [Clique aqui para mais informações](docs/command_reference/essential_directories/README.md) |
+| 8 | `/media` | Ponto de montagem para mídias removíveis (pendrives, CDs, DVDs etc.). | `/media/cdrom`, `/media/usb` | [Clique aqui para mais informações](docs/command_reference/essential_directories/README.md) |
+| 9 | `/mnt` | Ponto de montagem temporário. | Montagem de um compartilhamento de rede em `/mnt` | [Clique aqui para mais informações](docs/command_reference/essential_directories/README.md) |
+| 10 | `/opt` | Software opcional de terceiros. | Instalação de uma suíte de software em `/opt` | [Clique aqui para mais informações](docs/command_reference/essential_directories/README.md) |
+| 11 | `/proc` | Informações sobre processos e o kernel (sistema de arquivos virtual). | `/proc/cpuinfo`, `/proc/[pid]` | [Clique aqui para mais informações](docs/command_reference/essential_directories/README.md) |
+| 12 | `/root` | Diretório pessoal do usuário administrador (*root*). | `/root/.bashrc` | [Clique aqui para mais informações](docs/command_reference/essential_directories/README.md) |
+| 13 | `/sbin` | Binários de administração do sistema (comandos administrativos). | `fdisk`, `shutdown` | [Clique aqui para mais informações](docs/command_reference/essential_directories/README.md) |
+| 14 | `/srv` | Dados utilizados por serviços do sistema, como servidores web e FTP. | `/srv/www` | [Clique aqui para mais informações](docs/command_reference/essential_directories/README.md) |
+| 15 | `/tmp` | Arquivos temporários (geralmente removidos após reinicialização). | Arquivos temporários criados por aplicações | [Clique aqui para mais informações](docs/command_reference/essential_directories/README.md) |
+| 16 | `/usr` | Programas, bibliotecas e utilitários de uso geral. | `/usr/bin/gcc`, `/usr/share/doc` | [Clique aqui para mais informações](docs/command_reference/essential_directories/README.md) |
+| 17 | `/var` | Dados variáveis do sistema, como logs, filas e arquivos temporários persistentes. | `/var/log`, `/var/spool/mail` | [Clique aqui para mais informações](docs/command_reference/essential_directories/README.md) |
 
 </div>
 
@@ -165,25 +165,25 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
-| :--: | :----------------: | :---------------------- | ------------------------------------- | --------------------------------------------- |
-| 1 | `dig -x [ip]` | Domain Information Groper | IP address reverse lookup | Consulta reversa de endereço IP |
-| 2 | `dig -x [host]` | Domain Information Groper | Domain reverse lookup | Consulta reversa de domínio |
-| 3 | `dig [domain]` | Domain Information Groper | Show domain's DNS info | Mostrar informações de DNS do domínio |
-| 4 | `get [file]` | — | Download a file from remote to local | Baixar um arquivo de remoto para local |
-| 5 | `host [domain]` | — | IP lookup for a domain | Consulta de IP para um domínio |
-| 6 | `curl -O [file_url]` | client URL | Download a file from url | Baixar um arquivo de uma URL |
-| 7 | `ifconfig` | interface configuration | Show all network interfaces | Mostrar todas as interfaces de rede |
-| 8 | `ip addr show` | Internet Protocol | Show IP addresses | Mostrar endereços IP |
-| 9 | `ip address add [ip]` | Internet Protocol | Assign IP address to interface | Atribuir endereço IP à interface |
-| 10 | `netstat -pntlu` | network statistics | Show active listening ports | Mostrar portas ativas de escuta |
-| 11 | `nslookup [domain]` | name server lookup | Network information | Informação de rede |
-| 12 | `ping [hostname]` | Packet Internet Groper | Check network status | Verificar status da rede |
-| 13 | `put [file]` | — | Upload file from local to remote computer | Enviar arquivo de local para remoto |
-| 14 | `quit` | — | Logout | Sair |
-| 15 | `traceroute [host]` | trace route | Trace route to host | Rastrear rota até o host |
-| 16 | `wget [file_url]` | World Wide Web get | Download a file from url | Baixar um arquivo de uma URL |
-| 17 | `whois [domain]` | who is | Show domain information | Mostrar informações do domínio |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português | Mais informações |
+| :--: | :--- | :--- | :--- | :--- | :---: |
+| 1 | `dig -x [ip]` | Domain Information Groper | IP address reverse lookup | Consulta reversa de endereço IP | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 2 | `dig -x [host]` | Domain Information Groper | Domain reverse lookup | Consulta reversa de domínio | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 3 | `dig [domain]` | Domain Information Groper | Show domain's DNS info | Mostrar informações de DNS do domínio | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 4 | `get [file]` | — | Download a file from remote to local | Baixar um arquivo de remoto para local | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 5 | `host [domain]` | — | IP lookup for a domain | Consulta de IP para um domínio | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 6 | `curl -O [file_url]` | client URL | Download a file from url | Baixar um arquivo de uma URL | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 7 | `ifconfig` | interface configuration | Show all network interfaces | Mostrar todas as interfaces de rede | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 8 | `ip addr show` | Internet Protocol | Show IP addresses | Mostrar endereços IP | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 9 | `ip address add [ip]` | Internet Protocol | Assign IP address to interface | Atribuir endereço IP à interface | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 10 | `netstat -pntlu` | network statistics | Show active listening ports | Mostrar portas ativas de escuta | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 11 | `nslookup [domain]` | name server lookup | Network information | Informação de rede | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 12 | `ping [hostname]` | Packet Internet Groper | Check network status | Verificar status da rede | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 13 | `put [file]` | — | Upload file from local to remote computer | Enviar arquivo de local para remoto | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 14 | `quit` | — | Logout | Sair | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 15 | `traceroute [host]` | trace route | Trace route to host | Rastrear rota até o host | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 16 | `wget [file_url]` | World Wide Web get | Download a file from url | Baixar um arquivo de uma URL | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 17 | `whois [domain]` | who is | Show domain information | Mostrar informações do domínio | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
 
 </div>
 
@@ -192,21 +192,21 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
-| :--: | :-----------------: | :---------------------- | -------------------------------- | ---------------------------------------- |
-| 1 | `adduser [user]` | — | Add a new user | Adicionar um novo usuário |
-| 2 | `useradd [user]` | user add | Add a new user | Adicionar um novo usuário |
-| 3 | `chgrp [group] [directory]` | change group | Change directory group | Mudar grupo de diretório |
-| 4 | `groupadd [group]` | — | Add a new group | Adicionar um novo grupo |
-| 5 | `id` | — | Show active user details | Mostrar detalhes do usuário ativo |
-| 6 | `last` | — | Show last system logins | Mostrar últimas entradas no sistema |
-| 7 | `passwd [username]` | password | Change the password for the user | Mudar a senha do usuário |
-| 8 | `su [user]` | substitute user | Switch user | Trocar de usuário |
-| 9 | `userdel [user]` | user delete | Delete a user | Excluir um usuário |
-| 10 | `usermod` | user modify | Modify user information | Modificar informações de um usuário |
-| 11 | `usermod -aG [group] [user]` | user modify | Add user to group | Adicionar usuário a um grupo |
-| 12 | `w` | — | Show logged users and activity | Mostrar usuários logados e atividade |
-| 13 | `who` | — | Show who is logged in | Mostrar quem está logado |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português | Mais informações |
+| :--: | :--- | :--- | :--- | :--- | :---: |
+| 1 | `adduser [user]` | — | Add a new user | Adicionar um novo usuário | [Clique aqui para mais informações](docs/command_reference/3_comandos_de_usuarios_e_grupos/README.md) |
+| 2 | `useradd [user]` | user add | Add a new user | Adicionar um novo usuário | [Clique aqui para mais informações](docs/command_reference/3_comandos_de_usuarios_e_grupos/README.md) |
+| 3 | `chgrp [group] [directory]` | change group | Change directory group | Mudar grupo de diretório | [Clique aqui para mais informações](docs/command_reference/3_comandos_de_usuarios_e_grupos/README.md) |
+| 4 | `groupadd [group]` | — | Add a new group | Adicionar um novo grupo | [Clique aqui para mais informações](docs/command_reference/3_comandos_de_usuarios_e_grupos/README.md) |
+| 5 | `id` | — | Show active user details | Mostrar detalhes do usuário ativo | [Clique aqui para mais informações](docs/command_reference/3_comandos_de_usuarios_e_grupos/README.md) |
+| 6 | `last` | — | Show last system logins | Mostrar últimas entradas no sistema | [Clique aqui para mais informações](docs/command_reference/3_comandos_de_usuarios_e_grupos/README.md) |
+| 7 | `passwd [username]` | password | Change the password for the user | Mudar a senha do usuário | [Clique aqui para mais informações](docs/command_reference/3_comandos_de_usuarios_e_grupos/README.md) |
+| 8 | `su [user]` | substitute user | Switch user | Trocar de usuário | [Clique aqui para mais informações](docs/command_reference/3_comandos_de_usuarios_e_grupos/README.md) |
+| 9 | `userdel [user]` | user delete | Delete a user | Excluir um usuário | [Clique aqui para mais informações](docs/command_reference/3_comandos_de_usuarios_e_grupos/README.md) |
+| 10 | `usermod` | user modify | Modify user information | Modificar informações de um usuário | [Clique aqui para mais informações](docs/command_reference/3_comandos_de_usuarios_e_grupos/README.md) |
+| 11 | `usermod -aG [group] [user]` | user modify | Add user to group | Adicionar usuário a um grupo | [Clique aqui para mais informações](docs/command_reference/3_comandos_de_usuarios_e_grupos/README.md) |
+| 12 | `w` | — | Show logged users and activity | Mostrar usuários logados e atividade | [Clique aqui para mais informações](docs/command_reference/3_comandos_de_usuarios_e_grupos/README.md) |
+| 13 | `who` | — | Show who is logged in | Mostrar quem está logado | [Clique aqui para mais informações](docs/command_reference/3_comandos_de_usuarios_e_grupos/README.md) |
 
 </div>
 
@@ -215,12 +215,12 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
-| :--: | :-----------------: | :---------------------- | --------------------------------- | --------------------------------------- |
-| 1 | `cd` | — | Move up one level | Subir um nível |
-| 2 | `cd` | — | Change directory to $HOME | Mudar diretório para o $HOME |
-| 3 | `cd [location]` | — | Change to specified directory | Mudar para o diretório especificado |
-| 4 | `pwd` | print working directory | Print working directory | Mostrar o diretório atual |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português | Mais informações |
+| :--: | :--- | :--- | :--- | :--- | :---: |
+| 1 | `cd` | — | Move up one level | Subir um nível | [Clique aqui para mais informações](docs/command_reference/4_comandos_de_navegacao_de_diretorios/README.md) |
+| 2 | `cd` | — | Change directory to $HOME | Mudar diretório para o $HOME | [Clique aqui para mais informações](docs/command_reference/4_comandos_de_navegacao_de_diretorios/README.md) |
+| 3 | `cd [location]` | — | Change to specified directory | Mudar para o diretório especificado | [Clique aqui para mais informações](docs/command_reference/4_comandos_de_navegacao_de_diretorios/README.md) |
+| 4 | `pwd` | print working directory | Print working directory | Mostrar o diretório atual | [Clique aqui para mais informações](docs/command_reference/4_comandos_de_navegacao_de_diretorios/README.md) |
 
 </div>
 
@@ -229,19 +229,19 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
-| :--: | :------------------: | :---------------------- | ----------------------------------- | ----------------------------------------- |
-| 1 | `cat /proc/cpuinfo` | concatenate | Show CPU information | Mostrar informações da CPU |
-| 2 | `dmesg` | — | Show bootup messages | Mostrar mensagens de inicialização |
-| 3 | `dmidecode` | — | Show BIOS hardware info | Mostrar informações de hardware da BIOS |
-| 4 | `free -h` | — | Show free and used memory | Mostrar memória livre e usada |
-| 5 | `lsblk` | list block devices | Block devices info | Informações de dispositivos de bloco |
-| 6 | `lshw` | — | Hardware configuration info | Informações de configuração de hardware |
-| 7 | `lsusb -tv` | — | Tree-diagram of USB devices | Diagrama em árvore dos dispositivos USB |
-| 8 | `neofetch` | — | Display OS & hardware info | Mostrar informações do SO e hardware |
-| 9 | `hdparm -i /dev/[disk]` | — | Show disk data info | Mostrar informações de dados do disco |
-| 10 | `hdparm -Tt /dev/[disk]` | — | Disk read speed test | Teste de velocidade de leitura do disco |
-| 11 | `badblocks -s /dev/[disk]` | — | Unreadable blocks test | Teste de blocos ilegíveis |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português | Mais informações |
+| :--: | :--- | :--- | :--- | :--- | :---: |
+| 1 | `cat /proc/cpuinfo` | concatenate | Show CPU information | Mostrar informações da CPU | [Clique aqui para mais informações](docs/command_reference/5_informacoes_de_hardware/README.md) |
+| 2 | `dmesg` | — | Show bootup messages | Mostrar mensagens de inicialização | [Clique aqui para mais informações](docs/command_reference/5_informacoes_de_hardware/README.md) |
+| 3 | `dmidecode` | — | Show BIOS hardware info | Mostrar informações de hardware da BIOS | [Clique aqui para mais informações](docs/command_reference/5_informacoes_de_hardware/README.md) |
+| 4 | `free -h` | — | Show free and used memory | Mostrar memória livre e usada | [Clique aqui para mais informações](docs/command_reference/5_informacoes_de_hardware/README.md) |
+| 5 | `lsblk` | list block devices | Block devices info | Informações de dispositivos de bloco | [Clique aqui para mais informações](docs/command_reference/5_informacoes_de_hardware/README.md) |
+| 6 | `lshw` | — | Hardware configuration info | Informações de configuração de hardware | [Clique aqui para mais informações](docs/command_reference/5_informacoes_de_hardware/README.md) |
+| 7 | `lsusb -tv` | — | Tree-diagram of USB devices | Diagrama em árvore dos dispositivos USB | [Clique aqui para mais informações](docs/command_reference/5_informacoes_de_hardware/README.md) |
+| 8 | `neofetch` | — | Display OS & hardware info | Mostrar informações do SO e hardware | [Clique aqui para mais informações](docs/command_reference/5_informacoes_de_hardware/README.md) |
+| 9 | `hdparm -i /dev/[disk]` | — | Show disk data info | Mostrar informações de dados do disco | [Clique aqui para mais informações](docs/command_reference/5_informacoes_de_hardware/README.md) |
+| 10 | `hdparm -Tt /dev/[disk]` | — | Disk read speed test | Teste de velocidade de leitura do disco | [Clique aqui para mais informações](docs/command_reference/5_informacoes_de_hardware/README.md) |
+| 11 | `badblocks -s /dev/[disk]` | — | Unreadable blocks test | Teste de blocos ilegíveis | [Clique aqui para mais informações](docs/command_reference/5_informacoes_de_hardware/README.md) |
 
 </div>
 
@@ -250,13 +250,13 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
-| :--: | :-----------------------: | :---------------------- | ------------------------------------- | ----------------------------------------- |
-| 1 | `gzip [file]` | GNU zip | Create a gz compressed file | Criar um arquivo comprimido gz |
-| 2 | `tar xf [file.tar]` | tape archive | Extract archived file | Extrair arquivo arquivado |
-| 3 | `zip`/`unzip` | — | Package & compress files | Empacotar e comprimir arquivos |
-| 4 | `tar cf [file.tar] [file]` | tape archive | Create a tar file from a file | Criar um arquivo tar a partir de um arquivo |
-| 5 | `tar czf [file.tar.gz]` | tape archive | Create a gzip tar file | Criar um arquivo tar gzip |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português | Mais informações |
+| :--: | :--- | :--- | :--- | :--- | :---: |
+| 1 | `gzip [file]` | GNU zip | Create a gz compressed file | Criar um arquivo comprimido gz | [Clique aqui para mais informações](docs/command_reference/6_compressao_de_arquivos/README.md) |
+| 2 | `tar xf [file.tar]` | tape archive | Extract archived file | Extrair arquivo arquivado | [Clique aqui para mais informações](docs/command_reference/6_compressao_de_arquivos/README.md) |
+| 3 | `zip`/`unzip` | — | Package & compress files | Empacotar e comprimir arquivos | [Clique aqui para mais informações](docs/command_reference/6_compressao_de_arquivos/README.md) |
+| 4 | `tar cf [file.tar] [file]` | tape archive | Create a tar file from a file | Criar um arquivo tar a partir de um arquivo | [Clique aqui para mais informações](docs/command_reference/6_compressao_de_arquivos/README.md) |
+| 5 | `tar czf [file.tar.gz]` | tape archive | Create a gzip tar file | Criar um arquivo tar gzip | [Clique aqui para mais informações](docs/command_reference/6_compressao_de_arquivos/README.md) |
 
 </div>
 
@@ -265,16 +265,16 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
-| :--: | :-----------------------------: | :---------------------- | ---------------------------------------- | ---------------------------------------------------- |
-| 1 | `apt-get` | Advanced Package Tool (get) | Search for and install software packages | Pesquisar e instalar pacotes de software |
-| 2 | `apt install [package]` | — | Install a package with APT | Instalar um pacote com APT |
-| 3 | `dnf install [package.rpm]` | Dandified YUM | Install a package with DNF | Instalar um pacote com DNF |
-| 4 | `rpm -e [package.rpm]` | RPM Package Manager (sigla histórica) | Remove an rpm package | Remover um pacote rpm |
-| 5 | `rpm -ivh [package.rpm]` | RPM Package Manager (sigla histórica) | Install a local rpm package | Instalar um pacote rpm local |
-| 6 | `yum info [package]` | Yellowdog Updater, Modified | Package info & summary | Informação e resumo do pacote |
-| 7 | `yum install [package]` | Yellowdog Updater, Modified | Install a package with YUM | Instalar um pacote com YUM |
-| 8 | `yum search [package]` | Yellowdog Updater, Modified | Find a package by a keyword | Encontrar um pacote por uma palavra-chave |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português | Mais informações |
+| :--: | :--- | :--- | :--- | :--- | :---: |
+| 1 | `apt-get` | Advanced Package Tool (get) | Search for and install software packages | Pesquisar e instalar pacotes de software | [Clique aqui para mais informações](docs/command_reference/7_instalacao_de_pacotes/README.md) |
+| 2 | `apt install [package]` | — | Install a package with APT | Instalar um pacote com APT | [Clique aqui para mais informações](docs/command_reference/7_instalacao_de_pacotes/README.md) |
+| 3 | `dnf install [package.rpm]` | Dandified YUM | Install a package with DNF | Instalar um pacote com DNF | [Clique aqui para mais informações](docs/command_reference/7_instalacao_de_pacotes/README.md) |
+| 4 | `rpm -e [package.rpm]` | RPM Package Manager (sigla histórica) | Remove an rpm package | Remover um pacote rpm | [Clique aqui para mais informações](docs/command_reference/7_instalacao_de_pacotes/README.md) |
+| 5 | `rpm -ivh [package.rpm]` | RPM Package Manager (sigla histórica) | Install a local rpm package | Instalar um pacote rpm local | [Clique aqui para mais informações](docs/command_reference/7_instalacao_de_pacotes/README.md) |
+| 6 | `yum info [package]` | Yellowdog Updater, Modified | Package info & summary | Informação e resumo do pacote | [Clique aqui para mais informações](docs/command_reference/7_instalacao_de_pacotes/README.md) |
+| 7 | `yum install [package]` | Yellowdog Updater, Modified | Install a package with YUM | Instalar um pacote com YUM | [Clique aqui para mais informações](docs/command_reference/7_instalacao_de_pacotes/README.md) |
+| 8 | `yum search [package]` | Yellowdog Updater, Modified | Find a package by a keyword | Encontrar um pacote por uma palavra-chave | [Clique aqui para mais informações](docs/command_reference/7_instalacao_de_pacotes/README.md) |
 
 </div>
 
@@ -283,23 +283,23 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
-| :--: | :------------------------: | :---------------------- | --------------------------------------- | ----------------------------------------------------- |
-| 1 | `cat` | concatenate | Show current day and month | Mostrar dia e mês atuais |
-| 2 | `cal` | calendar | Show calendar | Mostrar calendário |
-| 3 | `date` | — | Show current time and date | Mostrar hora e data atuais |
-| 4 | `finger [username]` | — | Show user information | Mostrar informações do usuário |
-| 5 | `hostname` | — | Show system hostname | Mostrar nome do host do sistema |
-| 6 | `hostname -I` | — | Show System IP address | Mostrar endereço IP do sistema |
-| 7 | `last reboot` | — | Show reboot history | Mostrar histórico de reinicialização |
-| 8 | `modprobe [module-name]` | module probe | Add a new kernel module | Adicionar um novo módulo do kernel |
-| 9 | `shutdown [h:mm]` | — | Schedule a system shut down | Agendar desligamento do sistema |
-| 10 | `shutdown now` | — | Shut down immediately | Desligar imediatamente |
-| 11 | `ulimit [tags][limit]` | — | Manage the system clock | Gerenciar o relógio do sistema |
-| 12 | `uname -a` | — | Show kernel release info | Mostrar informações de lançamento do kernel |
-| 13 | `uname -r` | — | Show system information | Mostrar informações do sistema |
-| 14 | `uptime` | up time | Show uptime length/avg load | Mostrar tempo de atividade/carga média |
-| 15 | `whoami` | who am I | Show the current user | Mostrar o usuário atual |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português | Mais informações |
+| :--: | :--- | :--- | :--- | :--- | :---: |
+| 1 | `cat` | concatenate | Show current day and month | Mostrar dia e mês atuais | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
+| 2 | `cal` | calendar | Show calendar | Mostrar calendário | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
+| 3 | `date` | — | Show current time and date | Mostrar hora e data atuais | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
+| 4 | `finger [username]` | — | Show user information | Mostrar informações do usuário | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
+| 5 | `hostname` | — | Show system hostname | Mostrar nome do host do sistema | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
+| 6 | `hostname -I` | — | Show System IP address | Mostrar endereço IP do sistema | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
+| 7 | `last reboot` | — | Show reboot history | Mostrar histórico de reinicialização | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
+| 8 | `modprobe [module-name]` | module probe | Add a new kernel module | Adicionar um novo módulo do kernel | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
+| 9 | `shutdown [h:mm]` | — | Schedule a system shut down | Agendar desligamento do sistema | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
+| 10 | `shutdown now` | — | Shut down immediately | Desligar imediatamente | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
+| 11 | `ulimit [tags][limit]` | — | Manage the system clock | Gerenciar o relógio do sistema | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
+| 12 | `uname -a` | — | Show kernel release info | Mostrar informações de lançamento do kernel | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
+| 13 | `uname -r` | — | Show system information | Mostrar informações do sistema | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
+| 14 | `uptime` | up time | Show uptime length/avg load | Mostrar tempo de atividade/carga média | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
+| 15 | `whoami` | who am I | Show the current user | Mostrar o usuário atual | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
 
 </div>
 
@@ -308,13 +308,13 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
-| :--: | :------------------: | :---------------------- | ------------------------------------------------- | ---------------------------------------------------------- |
-| 1 | `chmod 755 [file]` | change mode | Full permission to owner; read permissions for others | Permissão total para o proprietário; permissão de leitura para outros |
-| 2 | `chmod 766 [file]` | change mode | Full permission to owner; read and write for others | Permissão total para o proprietário; leitura e escrita para outros |
-| 3 | `chmod 777 [file]` | change mode | Full read, write, execute permissions to everyone | Permissão total de leitura, escrita e execução para todos |
-| 4 | `chown [user][file]` | change owner | Change file ownership | Mudar a propriedade do arquivo |
-| 5 | `chown [user][group][file]` | change owner | Change file owner and group | Mudar o proprietário do arquivo e grupo |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português | Mais informações |
+| :--: | :--- | :--- | :--- | :--- | :---: |
+| 1 | `chmod 755 [file]` | change mode | Full permission to owner; read permissions for others | Permissão total para o proprietário; permissão de leitura para outros | [Clique aqui para mais informações](docs/command_reference/9_permissoes_de_arquivo/README.md) |
+| 2 | `chmod 766 [file]` | change mode | Full permission to owner; read and write for others | Permissão total para o proprietário; leitura e escrita para outros | [Clique aqui para mais informações](docs/command_reference/9_permissoes_de_arquivo/README.md) |
+| 3 | `chmod 777 [file]` | change mode | Full read, write, execute permissions to everyone | Permissão total de leitura, escrita e execução para todos | [Clique aqui para mais informações](docs/command_reference/9_permissoes_de_arquivo/README.md) |
+| 4 | `chown [user][file]` | change owner | Change file ownership | Mudar a propriedade do arquivo | [Clique aqui para mais informações](docs/command_reference/9_permissoes_de_arquivo/README.md) |
+| 5 | `chown [user][group][file]` | change owner | Change file owner and group | Mudar o proprietário do arquivo e grupo | [Clique aqui para mais informações](docs/command_reference/9_permissoes_de_arquivo/README.md) |
 
 </div>
 
@@ -323,12 +323,12 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
-| :--: | :-------------------: | :---------------------- | ------------------------------------------- | ------------------------------------------------------ |
-| 1 | `ssh [user]@[host]` | Secure Shell | Connect to host as user | Conectar ao host como usuário |
-| 2 | `ssh [host]` | Secure Shell | Connect to host via port 22 | Conectar ao host via porta 22 |
-| 3 | `telnet [host]` | — | Connect to Telnet via port 23 | Conectar ao Telnet via porta 23 |
-| 4 | `ssh -p [port][user]@[host]` | Secure Shell | Use a non-default port | Usar uma porta não padrão |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português | Mais informações |
+| :--: | :--- | :--- | :--- | :--- | :---: |
+| 1 | `ssh [user]@[host]` | Secure Shell | Connect to host as user | Conectar ao host como usuário | [Clique aqui para mais informações](docs/command_reference/10_login_ssh/README.md) |
+| 2 | `ssh [host]` | Secure Shell | Connect to host via port 22 | Conectar ao host via porta 22 | [Clique aqui para mais informações](docs/command_reference/10_login_ssh/README.md) |
+| 3 | `telnet [host]` | — | Connect to Telnet via port 23 | Conectar ao Telnet via porta 23 | [Clique aqui para mais informações](docs/command_reference/10_login_ssh/README.md) |
+| 4 | `ssh -p [port][user]@[host]` | Secure Shell | Use a non-default port | Usar uma porta não padrão | [Clique aqui para mais informações](docs/command_reference/10_login_ssh/README.md) |
 
 </div>
 
@@ -337,13 +337,13 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
-| :--: | :---------------------: | :---------------------- | ------------------------------------------- | -------------------------------------------------------- |
-| 1 | `declare [variable]=[value]` | — | Declare a Bash variable | Declarar uma variável Bash |
-| 2 | `echo $[variable]` | — | Display value of the variable | Exibir valor da variável |
-| 3 | `export [variable]` | — | Export a Bash variable | Exportar uma variável Bash |
-| 4 | `let [variable]=[value]` | — | Assign integer value to var | Atribuir valor inteiro à variável |
-| 5 | `set` | — | List variables and functions | Listar variáveis e funções |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português | Mais informações |
+| :--: | :--- | :--- | :--- | :--- | :---: |
+| 1 | `declare [variable]=[value]` | — | Declare a Bash variable | Declarar uma variável Bash | [Clique aqui para mais informações](docs/command_reference/11_variaveis_bash/README.md) |
+| 2 | `echo $[variable]` | — | Display value of the variable | Exibir valor da variável | [Clique aqui para mais informações](docs/command_reference/11_variaveis_bash/README.md) |
+| 3 | `export [variable]` | — | Export a Bash variable | Exportar uma variável Bash | [Clique aqui para mais informações](docs/command_reference/11_variaveis_bash/README.md) |
+| 4 | `let [variable]=[value]` | — | Assign integer value to var | Atribuir valor inteiro à variável | [Clique aqui para mais informações](docs/command_reference/11_variaveis_bash/README.md) |
+| 5 | `set` | — | List variables and functions | Listar variáveis e funções | [Clique aqui para mais informações](docs/command_reference/11_variaveis_bash/README.md) |
 
 </div>
 
@@ -352,10 +352,10 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
-| :--: | :-----------------: | :---------------------- | ------------------------------------ | -------------------------------------------------------- |
-| 1 | `scp [file.txt][server:/tmp]` | secure copy | Securely transfer a file | Transferir um arquivo de forma segura |
-| 2 | `rsync -a /location/ /backup/` | remote sync | Sync the contents of a location with the backup directory | Sincronizar os conteúdos de uma localização com o diretório de backup |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português | Mais informações |
+| :--: | :--- | :--- | :--- | :--- | :---: |
+| 1 | `scp [file.txt][server:/tmp]` | secure copy | Securely transfer a file | Transferir um arquivo de forma segura | [Clique aqui para mais informações](docs/command_reference/12_transferencia_de_arquivos/README.md) |
+| 2 | `rsync -a /location/ /backup/` | remote sync | Sync the contents of a location with the backup directory | Sincronizar os conteúdos de uma localização com o diretório de _backup_ | [Clique aqui para mais informações](docs/command_reference/12_transferencia_de_arquivos/README.md) |
 
 </div>
 
@@ -364,14 +364,14 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
-| :--: | :----------------: | :---------------------- | -------------------------------------------- | ---------------------------------------------------------- |
-| 1 | `fdisk -l` | fixed disk | Disk partition types and sizes | Tipos e tamanhos de partições de disco |
-| 2 | `df -h` | disk free | Show free space on system | Mostrar espaço livre no sistema |
-| 3 | `du -ah` | disk usage | Show disk usage for all files | Mostrar uso do disco para todos os arquivos |
-| 4 | `du -sh` | disk usage | Show disk usage for current directory | Mostrar uso do disco para o diretório atual |
-| 5 | `findmnt` | — | Show target mount point | Mostrar ponto de montagem alvo |
-| 6 | `mount [device][mount point]` | mount | Mount a device | Montar um dispositivo |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português | Mais informações |
+| :--: | :--- | :--- | :--- | :--- | :---: |
+| 1 | `fdisk -l` | fixed disk | Disk partition types and sizes | Tipos e tamanhos de partições de disco | [Clique aqui para mais informações](docs/command_reference/13_uso_de_disco/README.md) |
+| 2 | `df -h` | disk free | Show free space on system | Mostrar espaço livre no sistema | [Clique aqui para mais informações](docs/command_reference/13_uso_de_disco/README.md) |
+| 3 | `du -ah` | disk usage | Show disk usage for all files | Mostrar uso do disco para todos os arquivos | [Clique aqui para mais informações](docs/command_reference/13_uso_de_disco/README.md) |
+| 4 | `du -sh` | disk usage | Show disk usage for current directory | Mostrar uso do disco para o diretório atual | [Clique aqui para mais informações](docs/command_reference/13_uso_de_disco/README.md) |
+| 5 | `findmnt` | — | Show target mount point | Mostrar ponto de montagem alvo | [Clique aqui para mais informações](docs/command_reference/13_uso_de_disco/README.md) |
+| 6 | `mount [device][mount point]` | mount | Mount a device | Montar um dispositivo | [Clique aqui para mais informações](docs/command_reference/13_uso_de_disco/README.md) |
 
 </div>
 
@@ -380,24 +380,24 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
-| :--: | :------------------: | :---------------------- | ----------------------------------------------- | ---------------------------------------------------------- |
-| 1 | `bg` | — | List background processes | Listar processos em segundo plano |
-| 2 | `clear` | clear | Clear terminal screen | Limpar a tela do terminal |
-| 3 | `fg [job]` | foreground | Bring job to foreground | Trazer trabalho para o primeiro plano |
-| 4 | `kill [process_id]` | — | Kill the process by ID | Matar o processo pelo ID |
-| 5 | `pkill [process_name]` | process kill | Kill the process by name | Matar o processo pelo nome |
-| 6 | `killall [process_name]` | — | Kill all processes by name | Matar todos os processos pelo nome |
-| 7 | `lsof` | list open files | List files opened by processes | Listar arquivos abertos por processos |
-| 8 | `ps` | process status | Show active process snapshot | Mostrar instantâneo de processos ativos |
-| 9 | `pstree` | process tree | Show processes as a tree | Mostrar processos em forma de árvore |
-| 10 | `top` | table of processes | Show all running processes | Mostrar todos os processos em execução |
-| 11 | `htop` | Hisham's top | Interactive process viewer | Visualizador interativo de processos |
-| 12 | `wait` | — | Pause terminal until process completes | Pausar terminal até que o processo seja completado |
-| 13 | `nice` | nice (prioridade de processo) | Start a process with a given priority | Iniciar um processo com uma prioridade dada |
-| 14 | `fg` | foreground | Most recent suspended job to foreground | Trabalho suspenso mais recente para o primeiro plano |
-| 15 | `ps PID` | process status | Give the status of a particular process | Dar o status de um processo específico |
-| 16 | `renice` | re-nice (alterar prioridade) | Change priority of a running process | Mudar a prioridade de um processo em execução |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português | Mais informações |
+| :--: | :--- | :--- | :--- | :--- | :---: |
+| 1 | `bg` | — | List background processes | Listar processos em segundo plano | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 2 | `clear` | clear | Clear terminal screen | Limpar a tela do terminal | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 3 | `fg [job]` | foreground | Bring job to foreground | Trazer trabalho para o primeiro plano | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 4 | `kill [process_id]` | — | Kill the process by ID | Matar o processo pelo ID | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 5 | `pkill [process_name]` | process kill | Kill the process by name | Matar o processo pelo nome | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 6 | `killall [process_name]` | — | Kill all processes by name | Matar todos os processos pelo nome | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 7 | `lsof` | list open files | List files opened by processes | Listar arquivos abertos por processos | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 8 | `ps` | process status | Show active process snapshot | Mostrar instantâneo de processos ativos | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 9 | `pstree` | process tree | Show processes as a tree | Mostrar processos em forma de árvore | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 10 | `top` | table of processes | Show all running processes | Mostrar todos os processos em execução | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 11 | `htop` | Hisham's top | Interactive process viewer | Visualizador interativo de processos | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 12 | `wait` | — | Pause terminal until process completes | Pausar terminal até que o processo seja completado | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 13 | `nice` | nice (prioridade de processo) | Start a process with a given priority | Iniciar um processo com uma prioridade dada | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 14 | `fg` | foreground | Most recent suspended job to foreground | Trabalho suspenso mais recente para o primeiro plano | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 15 | `ps PID` | process status | Give the status of a particular process | Dar o status de um processo específico | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 16 | `renice` | re-nice (alterar prioridade) | Change priority of a running process | Mudar a prioridade de um processo em execução | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
 
 </div>
 
@@ -406,31 +406,31 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português |
-| :--: | :------------------: | :---------------------- | ---------------------------------------------- | ---------------------------------------------------------- |
-| 1 | `alias [alias]='[command]'` | — | Create command alias | Criar um alias para comando |
-| 2 | `at [hh:mm]` | — | Schedule a job | Agendar um trabalho |
-| 3 | `cp [source] [dest]` | copy | Copy files or directories | Copiar arquivos ou diretórios |
-| 4 | `diff [file1] [file2]` | difference | Compare files | Comparar arquivos |
-| 5 | `history` | — | Print command history | Imprimir histórico de comandos |
-| 6 | `jobs` | — | Display current jobs & status | Mostrar trabalhos atuais e seu status |
-| 7 | `ln [target] [link_name]` | link | Create links | Criar links |
-| 8 | `locate [pattern]` | — | Locate files | Localizar arquivos |
-| 9 | `man [command]` | — | Display command manual | Exibir manual de comando |
-| 10 | `mv [source] [dest]` | move | Move or rename files | Mover ou renomear arquivos |
-| 11 | `nano [file]` | — | Open a text editor | Abrir um editor de texto |
-| 12 | `rm [file]` | remove | Remove files | Remover arquivos |
-| 13 | `rmdir [dir]` | — | Remove empty directories | Remover diretórios vazios |
-| 14 | `sed 's/old/new/' [file]` | stream editor | Search and replace | Buscar e substituir |
-| 15 | `sleep [interval] && [command]` | — | Postpone command execution | Adiar execução de comando |
-| 16 | `tail [file]` | — | Show last lines of a file | Mostrar as últimas linhas de um arquivo |
-| 17 | `tee [file]` | T (formato da letra) | Write output to file and terminal | Enviar saída para arquivo e terminal |
-| 18 | `touch [file]` | — | Create empty file | Criar arquivo vazio |
-| 19 | `unalias` | — | Remove an alias | Remover um alias |
-| 20 | `vi [file]` | — | Open a text editor | Abrir um editor de texto |
-| 21 | `watch -n [interval] [command]` | — | Set interval to run a command | Definir intervalo para executar um comando |
-| 22 | `awk -f [program.awk] [file]` | Aho, Weinberger e Kernighan | Pattern scanning and processing | Buscar e manipular padrões |
-| 23 | `jed [file]` | — | Open a text editor | Abrir um editor de texto |
+| # | Comando | Expansão / origem | Descrição em Inglês | Descrição em Português | Mais informações |
+| :--: | :--- | :--- | :--- | :--- | :---: |
+| 1 | `alias [alias]='[command]'` | — | Create command alias | Criar um alias para comando | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 2 | `at [hh:mm]` | — | Schedule a job | Agendar um trabalho | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 3 | `cp [source] [dest]` | copy | Copy files or directories | Copiar arquivos ou diretórios | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 4 | `diff [file1] [file2]` | difference | Compare files | Comparar arquivos | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 5 | `history` | — | Print command history | Imprimir histórico de comandos | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 6 | `jobs` | — | Display current jobs & status | Mostrar trabalhos atuais e seu status | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 7 | `ln [target] [link_name]` | link | Create links | Criar links | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 8 | `locate [pattern]` | — | Locate files | Localizar arquivos | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 9 | `man [command]` | — | Display command manual | Exibir manual de comando | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 10 | `mv [source] [dest]` | move | Move or rename files | Mover ou renomear arquivos | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 11 | `nano [file]` | — | Open a text editor | Abrir um editor de texto | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 12 | `rm [file]` | remove | Remove files | Remover arquivos | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 13 | `rmdir [dir]` | — | Remove empty directories | Remover diretórios vazios | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 14 | `sed 's/old/new/' [file]` | stream editor | Search and replace | Buscar e substituir | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 15 | `sleep [interval] && [command]` | — | Postpone command execution | Adiar execução de comando | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 16 | `tail [file]` | — | Show last lines of a file | Mostrar as últimas linhas de um arquivo | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 17 | `tee [file]` | T (formato da letra) | Write output to file and terminal | Enviar saída para arquivo e terminal | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 18 | `touch [file]` | — | Create empty file | Criar arquivo vazio | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 19 | `unalias` | — | Remove an alias | Remover um alias | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 20 | `vi [file]` | — | Open a text editor | Abrir um editor de texto | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 21 | `watch -n [interval] [command]` | — | Set interval to run a command | Definir intervalo para executar um comando | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 22 | `awk -f [program.awk] [file]` | Aho, Weinberger e Kernighan | Pattern scanning and processing | Buscar e manipular padrões | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 23 | `jed [file]` | — | Open a text editor | Abrir um editor de texto | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
 
 </div>
 
@@ -439,21 +439,21 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 
 <div align="center">
 
-| # | Atalho | Expansão / origem | Descrição em Inglês | Descrição em Português |
-| :--: | :----------------: | :---------------------- | ---------------------------------------------- | ---------------------------------------------- |
-| 1 | `!!` | Re-executa o último comando no Bash/Zsh | Repeat the last command | Repetir o último comando |
-| 2 | `exit` | — | Log out of the session | Encerrar a sessão |
-| 3 | `Ctrl + C` | `Control + C` | Kill current process | Interromper o processo atual |
-| 4 | `Ctrl + G` | `Control + G` | Exit command history | Sair do histórico de comandos |
-| 5 | `Ctrl + K` | `Control + K` | Cut part of the line after the cursor | Recortar o texto após o cursor |
-| 6 | `Ctrl + O` | `Control + O` | Run the recalled command | Executar o comando recuperado |
-| 7 | `Ctrl + R` | `Control + R` | Recall last command | Pesquisar no histórico de comandos |
-| 8 | `Ctrl + U` | `Control + U` | Cut part of the line before the cursor | Recortar o texto antes do cursor |
-| 9 | `Ctrl + W` | `Control + W` | Cut the word before the cursor | Recortar a palavra anterior ao cursor |
-| 10 | `Ctrl + Y` | `Control + Y` | Paste from clipboard | Colar o texto recortado |
-| 11 | `Ctrl + Z` | `Control + Z` | Stop process (can be resumed) | Suspender o processo (pode ser retomado) |
-| 12 | `Ctrl + Alt + F7` | `Control + Alt + F7` | Switch to the first graphical terminal | Alternar para o primeiro terminal gráfico |
-| 13 | `Ctrl + Alt + F10` | `Control + Alt + F10` | Switch to a virtual console | Alternar para um console virtual |
+| # | Atalho | Expansão / origem | Descrição em Inglês | Descrição em Português | Mais informações |
+| :--: | :--- | :--- | :--- | :--- | :---: |
+| 1 | `!!` | Re-executa o último comando no Bash/Zsh | Repeat the last command | Repetir o último comando | [Clique aqui para mais informações](docs/command_reference/16_atalhos_de_teclado/README.md) |
+| 2 | `exit` | — | Log out of the session | Encerrar a sessão | [Clique aqui para mais informações](docs/command_reference/16_atalhos_de_teclado/README.md) |
+| 3 | `Ctrl + C` | `Control + C` | Kill current process | Interromper o processo atual | [Clique aqui para mais informações](docs/command_reference/16_atalhos_de_teclado/README.md) |
+| 4 | `Ctrl + G` | `Control + G` | Exit command history | Sair do histórico de comandos | [Clique aqui para mais informações](docs/command_reference/16_atalhos_de_teclado/README.md) |
+| 5 | `Ctrl + K` | `Control + K` | Cut part of the line after the cursor | Recortar o texto após o cursor | [Clique aqui para mais informações](docs/command_reference/16_atalhos_de_teclado/README.md) |
+| 6 | `Ctrl + O` | `Control + O` | Run the recalled command | Executar o comando recuperado | [Clique aqui para mais informações](docs/command_reference/16_atalhos_de_teclado/README.md) |
+| 7 | `Ctrl + R` | `Control + R` | Recall last command | Pesquisar no histórico de comandos | [Clique aqui para mais informações](docs/command_reference/16_atalhos_de_teclado/README.md) |
+| 8 | `Ctrl + U` | `Control + U` | Cut part of the line before the cursor | Recortar o texto antes do cursor | [Clique aqui para mais informações](docs/command_reference/16_atalhos_de_teclado/README.md) |
+| 9 | `Ctrl + W` | `Control + W` | Cut the word before the cursor | Recortar a palavra anterior ao cursor | [Clique aqui para mais informações](docs/command_reference/16_atalhos_de_teclado/README.md) |
+| 10 | `Ctrl + Y` | `Control + Y` | Paste from clipboard | Colar o texto recortado | [Clique aqui para mais informações](docs/command_reference/16_atalhos_de_teclado/README.md) |
+| 11 | `Ctrl + Z` | `Control + Z` | Stop process (can be resumed) | Suspender o processo (pode ser retomado) | [Clique aqui para mais informações](docs/command_reference/16_atalhos_de_teclado/README.md) |
+| 12 | `Ctrl + Alt + F7` | `Control + Alt + F7` | Switch to the first graphical terminal | Alternar para o primeiro terminal gráfico | [Clique aqui para mais informações](docs/command_reference/16_atalhos_de_teclado/README.md) |
+| 13 | `Ctrl + Alt + F10` | `Control + Alt + F10` | Switch to a virtual console | Alternar para um console virtual | [Clique aqui para mais informações](docs/command_reference/16_atalhos_de_teclado/README.md) |
 
 </div>
 
