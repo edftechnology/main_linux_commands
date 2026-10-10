@@ -601,7 +601,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
     # Eden Denis, [11/02/2026 16:16]
     # ---- PRINCIPAIS ALIASES ----
     alias cea="~/cea/cea_run"
-    alias cdaiinspector="cd ~/Documents/Downloads/unix/ubuntu/python/nicegui/subs/submodules/audithas/"
+    alias cdaiinspector="cd ~/Documents/UNIVERSITIES/ITA/MESTRADO/eden_denis/thesis/subs/submodules/audithas/"
     alias cdaudithas='cd ~/Documents/Downloads/unix/ubuntu/python/nicegui/subs/submodules/ai_inspector/'  # Específico
     alias cdc3gothermo="cd ~/Documents/Downloads/unix/ubuntu/python/nicegui/subs/submodules/c3go_thermo/"
     alias cddesktop="cd ~/Desktop"
