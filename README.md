@@ -601,7 +601,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
     # Eden Denis, [11/02/2026 16:16]
     # ---- PRINCIPAIS ALIASES ----
     alias cea="~/cea/cea_run"
-    alias cdaiinspector="cd ~/Documents/Downloads/unix/ubuntu/python/nicegui/subs/submodules/ai_inspector/"
+    alias cdaiinspector="cd ~/Documents/Downloads/unix/ubuntu/python/nicegui/subs/submodules/audithas/"
     alias cdaudithas='cd ~/Documents/Downloads/unix/ubuntu/python/nicegui/subs/submodules/ai_inspector/'  # Específico
     alias cdc3gothermo="cd ~/Documents/Downloads/unix/ubuntu/python/nicegui/subs/submodules/c3go_thermo/"
     alias cddesktop="cd ~/Desktop"
@@ -751,11 +751,50 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
     }
 
     # --- Desativar/Ativar o touchpad/mousepad ---
-    alias mousepad_off='xinput disable "DLL07B0:01 044E:120B"'
-    alias mousepad_on='xinput enable "DLL07B0:01 044E:120B"'
+    _input_device_set() {
+        local kind="$1" action="$2" device_ids
 
-    alias touchpad_off='xinput disable "DLL07B0:01 044E:120B"'
-    alias touchpad_on='xinput enable "DLL07B0:01 044E:120B"'
+        if ! command -v xinput >/dev/null 2>&1; then
+            printf 'Erro: xinput não está instalado.\n' >&2
+            return 127
+        fi
+
+        case "$kind" in
+            touchpad|mousepad)
+                device_ids=$(xinput list --short | awk '
+                    /slave  pointer/ && tolower($0) ~ /touchpad|synaptics|alps|elan|dll[0-9a-f]+:/ {
+                        sub(/^.*id=/, ""); sub(/[[:space:]].*$/, ""); print
+                    }')
+                ;;
+            *) printf 'Tipo de dispositivo inválido: %s\n' "$kind" >&2; return 2 ;;
+        esac
+
+        if [[ -z "$device_ids" ]]; then
+            printf 'Erro: nenhum dispositivo %s foi encontrado pelo xinput.\n' "$kind" >&2
+            return 1
+        fi
+
+        local device
+        while IFS= read -r device; do
+            [[ -z "$device" ]] && continue
+            if xinput list-props "$device" 2>/dev/null | grep -q 'Synaptics Off'; then
+                if [[ "$action" == off ]]; then
+                    xinput set-prop "$device" 'Synaptics Off' 1 || return
+                else
+                    xinput set-prop "$device" 'Synaptics Off' 0 || return
+                fi
+            elif [[ "$action" == off ]]; then
+                xinput disable "$device" || return
+            else
+                xinput enable "$device" || return
+            fi
+        done <<< "$device_ids"
+    }
+
+    mousepad_off() { _input_device_set mousepad off; }
+    mousepad_on()  { _input_device_set mousepad on; }
+    touchpad_off() { _input_device_set touchpad off; }
+    touchpad_on()  { _input_device_set touchpad on; }
 
     # --- ollama --
     ## Ajustar performance da cpu
