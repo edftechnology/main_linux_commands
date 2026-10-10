@@ -809,11 +809,11 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
     alias gaseq='WINEPREFIX=$HOME/.wine-gaseq wine "C:\\Program Files\\GASEQ\\Gaseq.exe"'
 
     # --- Codex ---
-    alias codex='command codex -m gpt-6-luna -a never -s danger-full-access'
-    alias codex-safe='command codex -m gpt-6-luna'
-    alias codex-fast='command codex -m gpt-6-luna'
-    alias codex-full='command codex -m gpt-6-luna -a never -s danger-full-access'
-    alias codex-yolo='command codex -m gpt-6-luna -a never -s danger-full-access'
+    alias codex='command codex -c tui.vim_mode_default=true -m gpt-6-luna -a never -s danger-full-access'
+    alias codex-safe='command codex -c tui.vim_mode_default=true -m gpt-6-luna'
+    alias codex-fast='command codex -c tui.vim_mode_default=true -m gpt-6-luna'
+    alias codex-full='command codex -c tui.vim_mode_default=true -m gpt-6-luna -a never -s danger-full-access'
+    alias codex-yolo='command codex -c tui.vim_mode_default=true -m gpt-6-luna -a never -s danger-full-access'
 
     # --- Gemini ---
     alias gemini='command gemini --model gemini-3.5-flash-lite --yolo'
