@@ -119,3 +119,25 @@ Este README secundário reúne notas de consulta e encaminha para documentação
 ## Como consultar documentação local
 
 Use `man nome_do_comando` para abrir a página de manual instalada. Para comandos que oferecem essa opção, `nome_do_comando --help` mostra um resumo de uso. Confirme a disponibilidade e as opções na sua distribuição antes de executar comandos administrativos ou destrutivos.
+
+## Comandos acrescentados da referência GeeksforGeeks
+
+Estes itens estavam no PDF consultado e não apareciam como comandos na tabela principal. Consulte também `man comando` ou `comando --help` quando disponível.
+
+### `pgrep [pattern]`
+
+- Expansão/origem: process grep.
+- Descrição: Pesquisar processos por nome ou outros atributos.
+- Em inglês: Search for processes by name or other attributes.
+
+### `nohup [command]`
+
+- Expansão/origem: no hangup.
+- Descrição: Executar um comando imune a sinais de desconexão.
+- Em inglês: Run a command immune to hangup signals.
+
+### `disown [job]`
+
+- Expansão/origem: disown (remove from shell job table).
+- Descrição: Remover uma tarefa da tabela de jobs do shell atual.
+- Em inglês: Remove a job from the current shell job table.

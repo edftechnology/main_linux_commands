@@ -126,3 +126,45 @@ Este README secundário reúne notas de consulta e encaminha para documentação
 ## Como consultar documentação local
 
 Use `man nome_do_comando` para abrir a página de manual instalada. Para comandos que oferecem essa opção, `nome_do_comando --help` mostra um resumo de uso. Confirme a disponibilidade e as opções na sua distribuição antes de executar comandos administrativos ou destrutivos.
+
+## Comandos acrescentados da referência GeeksforGeeks
+
+Estes itens estavam no PDF consultado e não apareciam como comandos na tabela principal. Consulte também `man comando` ou `comando --help` quando disponível.
+
+### `iwconfig`
+
+- Expansão/origem: wireless configuration.
+- Descrição: Exibir ou configurar interfaces de rede sem fio.
+- Em inglês: Display or configure wireless network interfaces.
+
+### `arp`
+
+- Expansão/origem: Address Resolution Protocol.
+- Descrição: Exibir ou modificar o cache ARP.
+- Em inglês: Display or modify the ARP cache.
+
+### `ss`
+
+- Expansão/origem: socket statistics.
+- Descrição: Exibir estatísticas de sockets e conexões de rede.
+- Em inglês: Display socket statistics and network connections.
+
+### `mtr`
+
+- Expansão/origem: My Traceroute.
+- Descrição: Combinar ping e traceroute para diagnóstico de rede.
+- Em inglês: Combine ping and traceroute for network diagnostics.
+
+## Comandos adicionais do PDF GeeksforGeeks
+
+### `ftp [host]`
+
+- Expansão/origem: File Transfer Protocol.
+- Mais informações: Transferir arquivos usando FTP. FTP não cifra credenciais ou conteúdo; prefira SFTP ou SCP quando houver suporte.
+- Consulte `man` ou `--help` quando disponível.
+
+### `route -n`
+
+- Expansão/origem: route.
+- Mais informações: Exibir a tabela de roteamento numérica. Em sistemas atuais, `ip route` costuma ser a interface recomendada.
+- Consulte `man` ou `--help` quando disponível.

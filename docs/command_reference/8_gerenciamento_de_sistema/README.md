@@ -112,3 +112,13 @@ Este README secundário reúne notas de consulta e encaminha para documentação
 ## Como consultar documentação local
 
 Use `man nome_do_comando` para abrir a página de manual instalada. Para comandos que oferecem essa opção, `nome_do_comando --help` mostra um resumo de uso. Confirme a disponibilidade e as opções na sua distribuição antes de executar comandos administrativos ou destrutivos.
+
+## Comandos acrescentados da referência GeeksforGeeks
+
+Estes itens estavam no PDF consultado e não apareciam como comandos na tabela principal. Consulte também `man comando` ou `comando --help` quando disponível.
+
+### `crontab -e`
+
+- Expansão/origem: cron table (edit).
+- Descrição: Editar tarefas cron agendadas para o usuário atual.
+- Em inglês: Edit scheduled cron jobs for the current user.

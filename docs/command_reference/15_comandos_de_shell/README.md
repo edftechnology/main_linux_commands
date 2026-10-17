@@ -168,3 +168,99 @@ Este README secundário reúne notas de consulta e encaminha para documentação
 ## Como consultar documentação local
 
 Use `man nome_do_comando` para abrir a página de manual instalada. Para comandos que oferecem essa opção, `nome_do_comando --help` mostra um resumo de uso. Confirme a disponibilidade e as opções na sua distribuição antes de executar comandos administrativos ou destrutivos.
+
+## Comandos acrescentados da referência GeeksforGeeks
+
+Estes itens estavam no PDF consultado e não apareciam como comandos na tabela principal. Consulte também `man comando` ou `comando --help` quando disponível.
+
+### `more [file]`
+
+- Expansão/origem: pager command.
+- Descrição: Exibir um arquivo de texto uma tela por vez.
+- Em inglês: Display a text file one screen at a time.
+
+### `less [file]`
+
+- Expansão/origem: pager command.
+- Descrição: Consultar texto com navegação para frente e para trás.
+- Em inglês: View text with forward and backward navigation.
+
+### `patch [file] [diff]`
+
+- Expansão/origem: patch utility.
+- Descrição: Aplicar um arquivo diff para atualizar um arquivo-alvo.
+- Em inglês: Apply a diff file to update a target file.
+
+### `vim [file]`
+
+- Expansão/origem: Vi Improved.
+- Descrição: Editar arquivos de texto em um editor modal de terminal.
+- Em inglês: Edit text files in a modal terminal editor.
+
+### `emacs [file]`
+
+- Expansão/origem: Editor MACroS.
+- Descrição: Editar texto em um editor extensível e personalizável.
+- Em inglês: Edit text in a customizable extensible editor.
+
+### `ed [file]`
+
+- Expansão/origem: standard line editor.
+- Descrição: Editar texto por meio de uma interface orientada a linhas.
+- Em inglês: Edit text using a line-oriented interface.
+
+## Comandos adicionais do PDF GeeksforGeeks
+
+### `ls [directory]`
+
+- Expansão/origem: list.
+- Mais informações: Listar conteúdo de diretório; `-a` inclui entradas ocultas.
+- Consulte `man` ou `--help` quando disponível.
+
+### `mkdir [directory]`
+
+- Expansão/origem: make directory.
+- Mais informações: Criar diretório; `-p` também cria diretórios-pai ausentes.
+- Consulte `man` ou `--help` quando disponível.
+
+### `head [file]`
+
+- Expansão/origem: head.
+- Mais informações: Exibir as primeiras linhas; `-n` define a quantidade.
+- Consulte `man` ou `--help` quando disponível.
+
+### `grep [pattern] [file]`
+
+- Expansão/origem: grep.
+- Mais informações: Pesquisar linhas correspondentes; `-i`, `-n` e `-F` ajustam a busca.
+- Consulte `man` ou `--help` quando disponível.
+
+### `gcc [source] -o [program]`
+
+- Expansão/origem: GNU Compiler Collection.
+- Mais informações: Compilar código C; revise o código-fonte e o destino do executável.
+- Consulte `man` ou `--help` quando disponível.
+
+### `make`
+
+- Expansão/origem: make.
+- Mais informações: Executar as regras de build definidas no Makefile do projeto.
+- Consulte `man` ou `--help` quando disponível.
+
+### `./program`
+
+- Expansão/origem: caminho relativo.
+- Mais informações: Executar um binário no diretório atual; o prefixo `./` evita depender do `PATH`.
+- Consulte `man` ou `--help` quando disponível.
+
+### `python3 [script.py]`
+
+- Expansão/origem: Python 3.
+- Mais informações: Executar um programa Python 3 pelo interpretador.
+- Consulte `man` ou `--help` quando disponível.
+
+### `git status`
+
+- Expansão/origem: Git.
+- Mais informações: Inspecionar alterações locais antes de adicionar, commitar ou publicar.
+- Consulte `man` ou `--help` quando disponível.
