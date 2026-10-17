@@ -919,6 +919,7 @@ Acessado em: 17/09/2024 15:35.
 **Top 60 linux commands: what they are and how to use them effectively**.
 Disponível em: <https://www.hostinger.com/tutorials/linux-commands?utm_campaign=Generic-Tutorials-DSA-t2|NT:Se|Lang:EN|LO:BR&utm_medium=ppc&gad_source=1&gad_campaignid=20990084344&gbraid=0AAAAADMy-hYSlrOpsfeXBdAXnfXldpB1q&gclid=Cj0KCQiAtfXMBhDzARIsAJ0jp3AEsSUQb1rIe-QbnkGmvmQZE6_Z0EsQCsq1_QWC5ClqOkKkNxyOdvkaAiElEALw_wcB> (texto adaptado).
 Acessado em: 24/02/2026.
+Cópia consultada: [PDF arquivado](<docs/HOSTINGER. Linux commands cheat sheet. Hostinger, 2026.pdf>).
 
 [4] ROADMAP.SH.
 **Linux terminal basics**.
