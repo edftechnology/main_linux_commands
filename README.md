@@ -184,6 +184,12 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | 15 | `traceroute [host]` | trace route | Trace route to host | Rastrear rota até o host | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
 | 16 | `wget [file_url]` | World Wide Web get | Download a file from url | Baixar um arquivo de uma URL | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
 | 17 | `whois [domain]` | who is | Show domain information | Mostrar informações do domínio | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 18 | `iwconfig` | wireless configuration | Display or configure wireless network interfaces | Exibir ou configurar interfaces de rede sem fio | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 19 | `arp` | Address Resolution Protocol | Display or modify the ARP cache | Exibir ou modificar o cache ARP | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 20 | `ss` | socket statistics | Display socket statistics and network connections | Exibir estatísticas de sockets e conexões de rede | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 21 | `mtr` | My Traceroute | Combine ping and traceroute for network diagnostics | Combinar ping e traceroute para diagnóstico de rede | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 22 | `ftp [host]` | File Transfer Protocol | Transfer files using the FTP protocol | Transferir arquivos usando o protocolo FTP | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
+| 23 | `route -n` | route (tabela de roteamento) | Display or modify the IP routing table | Exibir ou modificar a tabela de roteamento IP | [Clique aqui para mais informações](docs/command_reference/2_rede/README.md) |
 
 </div>
 
@@ -300,6 +306,7 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | 13 | `uname -r` | — | Show system information | Mostrar informações do sistema | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
 | 14 | `uptime` | up time | Show uptime length/avg load | Mostrar tempo de atividade/carga média | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
 | 15 | `whoami` | who am I | Show the current user | Mostrar o usuário atual | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
+| 16 | `crontab -e` | cron table (edit) | Edit scheduled cron jobs for the current user | Editar tarefas cron agendadas para o usuário atual | [Clique aqui para mais informações](docs/command_reference/8_gerenciamento_de_sistema/README.md) |
 
 </div>
 
@@ -398,6 +405,9 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | 14 | `fg` | foreground | Most recent suspended job to foreground | Trabalho suspenso mais recente para o primeiro plano | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
 | 15 | `ps PID` | process status | Give the status of a particular process | Dar o status de um processo específico | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
 | 16 | `renice` | re-nice (alterar prioridade) | Change priority of a running process | Mudar a prioridade de um processo em execução | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 17 | `pgrep [pattern]` | process grep | Search for processes by name or other attributes | Pesquisar processos por nome ou outros atributos | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 18 | `nohup [command]` | no hangup | Run a command immune to hangup signals | Executar um comando imune a sinais de desconexão | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
+| 19 | `disown [job]` | disown (remove from shell job table) | Remove a job from the current shell job table | Remover uma tarefa da tabela de jobs do shell atual | [Clique aqui para mais informações](docs/command_reference/14_processos_relacionados/README.md) |
 
 </div>
 
@@ -431,6 +441,21 @@ Para configurar/instalar/usar o `Linux Cheat Sheet` no `Linux Ubuntu` sem precis
 | 21 | `watch -n [interval] [command]` | — | Set interval to run a command | Definir intervalo para executar um comando | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
 | 22 | `awk -f [program.awk] [file]` | Aho, Weinberger e Kernighan | Pattern scanning and processing | Buscar e manipular padrões | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
 | 23 | `jed [file]` | — | Open a text editor | Abrir um editor de texto | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 24 | `more [file]` | pager command | Display a text file one screen at a time | Exibir um arquivo de texto uma tela por vez | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 25 | `less [file]` | pager command | View text with forward and backward navigation | Consultar texto com navegação para frente e para trás | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 26 | `patch [file] [diff]` | patch utility | Apply a diff file to update a target file | Aplicar um arquivo diff para atualizar um arquivo-alvo | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 27 | `vim [file]` | Vi Improved | Edit text files in a modal terminal editor | Editar arquivos de texto em um editor modal de terminal | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 28 | `emacs [file]` | Editor MACroS | Edit text in a customizable extensible editor | Editar texto em um editor extensível e personalizável | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 29 | `ed [file]` | standard line editor | Edit text using a line-oriented interface | Editar texto por meio de uma interface orientada a linhas | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 30 | `ls [directory]` | list | List directory contents | Listar o conteúdo de um diretório | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 31 | `mkdir [directory]` | make directory | Create a directory | Criar um diretório | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 32 | `head [file]` | head (início do arquivo) | Display the first lines of a file | Exibir as primeiras linhas de um arquivo | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 33 | `grep [pattern] [file]` | global regular expression print (origem histórica) | Search text for matching lines | Pesquisar linhas correspondentes em texto | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 34 | `gcc [source] -o [program]` | GNU Compiler Collection | Compile C source code into an executable | Compilar código-fonte C em um executável | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 35 | `make` | make (ferramenta de automação de build) | Automate build tasks using a Makefile | Automatizar tarefas de compilação usando um Makefile | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 36 | `./program` | execução de caminho relativo | Run an executable from the current directory | Executar um programa a partir do diretório atual | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 37 | `python3 [script.py]` | Python 3 | Run a Python 3 script | Executar um script Python 3 | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
+| 38 | `git status` | Global Information Tracker (sigla histórica) | Show the working tree status | Exibir o estado da árvore de trabalho | [Clique aqui para mais informações](docs/command_reference/15_comandos_de_shell/README.md) |
 
 </div>
 
@@ -898,3 +923,10 @@ Acessado em: 24/02/2026.
 [4] ROADMAP.SH.
 **Linux terminal basics**.
 Disponível em: <https://roadmap.sh/ai/course/linux-terminal-basics>. Acessado em: 09/06/2026.
+
+[5] GEEKSFORGEEKS.
+**Essential Unix commands**.
+Disponível em: <https://www.geeksforgeeks.org/linux-unix/essential-linuxunix-commands/>.
+GeeksforGeeks.
+Acessado em: 17/10/2026.
+Cópia consultada: [PDF arquivado](<docs/GEEKSFORGEEKS. Essential Unix commands. GeeksforGeeks, 2026.pdf>).
